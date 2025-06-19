@@ -1,6 +1,4 @@
 
-import { Button } from "@/components/ui/button";
-
 export const Header = () => {
   return (
     <header className="container mx-auto px-4 py-6">
@@ -11,12 +9,6 @@ export const Header = () => {
           </div>
           <span className="text-xl font-serif font-bold">Cadence</span>
         </div>
-        <Button 
-          onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
-          className="bg-green-500 hover:bg-green-600 text-black"
-        >
-          Join Waitlist
-        </Button>
       </div>
     </header>
   );

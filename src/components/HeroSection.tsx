@@ -1,8 +1,10 @@
+
 import { Badge } from "@/components/ui/badge";
-import { Star, Users, Trophy } from "lucide-react";
-import { WaitlistForm } from "./WaitlistForm";
+import { Star } from "lucide-react";
+
 export const HeroSection = () => {
-  return <section className="container mx-auto px-4 py-12 md:py-20">
+  return (
+    <section className="container mx-auto px-4 py-12 md:py-20">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
@@ -11,18 +13,19 @@ export const HeroSection = () => {
               Career Development • Reimagined
             </Badge>
             
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">Stop letting your career development happen by accident</h1>
+            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">
+              Stop letting your career development happen by accident
+            </h1>
             
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">Cadence transforms random learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and maintain momentum toward your next promotion.</p>
-
-            <WaitlistForm />
+            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+              Cadence transforms random learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and maintain momentum toward your next promotion.
+            </p>
 
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <div className="flex items-center space-x-1">
                 <Star className="w-4 h-4 fill-green-400 text-green-400" />
-                <span>Early access launching soon</span>
+                <span>Coming soon</span>
               </div>
-              
             </div>
           </div>
 
@@ -44,20 +47,22 @@ export const HeroSection = () => {
               
               {/* Actual screenshot */}
               <div className="relative overflow-hidden rounded-lg">
-                <img src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" className="w-full h-auto rounded-lg shadow-lg" />
+                <img 
+                  src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" 
+                  alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" 
+                  className="w-full h-auto rounded-lg shadow-lg" 
+                />
                 
                 {/* Subtle glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-t from-green-500/5 to-transparent rounded-lg pointer-events-none"></div>
               </div>
             </div>
             
-            {/* Floating trophy icon */}
-            
-            
             {/* Subtle background glow */}
             <div className="absolute inset-0 bg-green-500/10 rounded-2xl blur-3xl -z-10 scale-110"></div>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
