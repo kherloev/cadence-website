@@ -1,4 +1,3 @@
-
 import { Badge } from "@/components/ui/badge";
 import { Star, Users, Trophy } from "lucide-react";
 import { WaitlistForm } from "./WaitlistForm";
@@ -14,7 +13,7 @@ export const HeroSection = () => {
               Career Development • Reimagined
             </Badge>
             
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">
               The Career Strava for Mid-Career Professionals
             </h1>
             

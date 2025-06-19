@@ -1,4 +1,3 @@
-
 import { Target, BarChart3, Trophy, CheckCircle } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
@@ -30,7 +29,7 @@ export const BenefitsSection = () => {
     <section className="container mx-auto px-4 py-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">
             Why Mid-Career Professionals Choose Cadence
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -49,7 +48,7 @@ export const BenefitsSection = () => {
                   <benefit.icon size={24} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-3">
+                  <h3 className="text-xl font-serif font-semibold mb-3">
                     {benefit.title}
                   </h3>
                   <p className="text-gray-300 leading-relaxed">
