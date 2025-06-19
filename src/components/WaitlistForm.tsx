@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ArrowRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 interface WaitlistFormProps {
   variant?: "hero" | "final";
@@ -20,16 +21,45 @@ export const WaitlistForm = ({ variant = "hero", className = "" }: WaitlistFormP
     if (!email) return;
     
     setIsSubmitting(true);
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
     
-    toast({
-      title: "Welcome to Cadence! 🎉",
-      description: "You're on the waitlist. We'll notify you when we launch!",
-    });
-    
-    setEmail("");
-    setIsSubmitting(false);
+    try {
+      const { error } = await supabase
+        .from('waitlist_signups')
+        .insert([
+          { 
+            email: email.toLowerCase().trim(),
+            source: 'website'
+          }
+        ]);
+
+      if (error) {
+        // Handle duplicate email error specifically
+        if (error.code === '23505') {
+          toast({
+            title: "Already on the list! 🎉",
+            description: "You're already signed up for our waitlist. We'll be in touch soon!",
+          });
+        } else {
+          throw error;
+        }
+      } else {
+        toast({
+          title: "Welcome to Cadence! 🎉",
+          description: "You're on the waitlist. We'll notify you when we launch!",
+        });
+      }
+      
+      setEmail("");
+    } catch (error) {
+      console.error('Waitlist signup error:', error);
+      toast({
+        title: "Oops! Something went wrong",
+        description: "Please try again or contact us if the problem continues.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const formClasses = variant === "final" 
