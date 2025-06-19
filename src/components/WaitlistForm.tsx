@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -41,8 +40,7 @@ export const WaitlistForm = ({ variant = "hero", className = "" }: WaitlistFormP
     try {
       console.log("=== WAITLIST SIGNUP DEBUG START ===");
       console.log("Email to insert:", email.toLowerCase().trim());
-      console.log("Supabase client URL:", supabase.supabaseUrl);
-      console.log("Supabase client key (first 20 chars):", supabase.supabaseKey.substring(0, 20));
+      console.log("Supabase client configured and ready");
       
       // Test connection first
       const connectionTest = await testDatabaseConnection();
