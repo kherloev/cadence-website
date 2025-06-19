@@ -38,16 +38,40 @@ export const HeroSection = () => {
 
           {/* Right side - App Screenshot */}
           <div className="relative">
-            <div className="bg-gray-900 rounded-lg p-1 shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
-                alt="Cadence App Interface" 
-                className="w-full h-auto rounded-lg"
-              />
+            {/* Device frame to make it look like a real app */}
+            <div className="relative bg-gray-800 rounded-2xl p-3 shadow-2xl border border-gray-700">
+              {/* Browser-like header */}
+              <div className="flex items-center space-x-2 mb-3 px-3 py-2 bg-gray-900 rounded-lg">
+                <div className="flex space-x-1">
+                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                </div>
+                <div className="flex-1 bg-gray-800 rounded px-3 py-1 text-xs text-gray-400">
+                  cadence.app
+                </div>
+              </div>
+              
+              {/* Actual screenshot */}
+              <div className="relative overflow-hidden rounded-lg">
+                <img 
+                  src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" 
+                  alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" 
+                  className="w-full h-auto rounded-lg shadow-lg"
+                />
+                
+                {/* Subtle glow effect */}
+                <div className="absolute inset-0 bg-gradient-to-t from-green-500/5 to-transparent rounded-lg pointer-events-none"></div>
+              </div>
             </div>
-            <div className="absolute -top-4 -right-4 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center">
+            
+            {/* Floating trophy icon */}
+            <div className="absolute -top-4 -right-4 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg border-4 border-black">
               <Trophy className="w-8 h-8 text-black" />
             </div>
+            
+            {/* Subtle background glow */}
+            <div className="absolute inset-0 bg-green-500/10 rounded-2xl blur-3xl -z-10 scale-110"></div>
           </div>
         </div>
       </div>
