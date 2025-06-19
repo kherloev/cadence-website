@@ -9,7 +9,7 @@ export const Header = () => {
           <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
             <span className="text-black font-bold text-sm">C</span>
           </div>
-          <span className="text-xl font-bold">Cadence</span>
+          <span className="text-xl font-serif font-bold">Cadence</span>
         </div>
         <Button 
           onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
