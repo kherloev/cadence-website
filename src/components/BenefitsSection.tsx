@@ -21,9 +21,7 @@ export const BenefitsSection = () => {
   return <section className="container mx-auto px-4 py-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">
-            Why Mid-Career Professionals Choose Cadence
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Why those who go further choose Cadence</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Move beyond random learning. Get the structured approach you need to reach your career destination.
           </p>
