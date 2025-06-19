@@ -23,7 +23,8 @@ export const WaitlistForm = ({ variant = "hero", className = "" }: WaitlistFormP
     setIsSubmitting(true);
     
     try {
-      console.log("Signing up email:", email.toLowerCase().trim());
+      console.log("Starting waitlist signup for:", email.toLowerCase().trim());
+      console.log("Supabase client configured with URL:", supabase.supabaseUrl);
       
       const { data, error } = await supabase
         .from('waitlist_signups')
@@ -33,14 +34,28 @@ export const WaitlistForm = ({ variant = "hero", className = "" }: WaitlistFormP
         }])
         .select();
 
+      console.log("Supabase response:", { data, error });
+
       if (error) {
-        console.error("Supabase error:", error);
+        console.error("Supabase error details:", {
+          message: error.message,
+          code: error.code,
+          details: error.details,
+          hint: error.hint
+        });
         
-        // Handle duplicate email error specifically
+        // Handle specific error cases
         if (error.code === '23505') {
           toast({
             title: "Already on the list! 🎉",
             description: "You're already signed up for our waitlist. We'll be in touch soon!",
+          });
+        } else if (error.code === '42501') {
+          console.error("RLS Policy Error - this should not happen with our current setup");
+          toast({
+            title: "Authentication Error",
+            description: "There was an issue with the signup process. Please try again.",
+            variant: "destructive",
           });
         } else {
           throw error;
@@ -51,9 +66,8 @@ export const WaitlistForm = ({ variant = "hero", className = "" }: WaitlistFormP
           title: "Welcome to Cadence! 🎉",
           description: "You're on the waitlist. We'll notify you when we launch!",
         });
+        setEmail("");
       }
-      
-      setEmail("");
       
     } catch (error) {
       console.error('Waitlist signup error:', error);
