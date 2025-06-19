@@ -52,9 +52,7 @@ export const HeroSection = () => {
             </div>
             
             {/* Floating trophy icon */}
-            <div className="absolute -top-4 -right-4 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg border-4 border-black">
-              <Trophy className="w-8 h-8 text-black" />
-            </div>
+            
             
             {/* Subtle background glow */}
             <div className="absolute inset-0 bg-green-500/10 rounded-2xl blur-3xl -z-10 scale-110"></div>
