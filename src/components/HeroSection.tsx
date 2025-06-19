@@ -13,9 +13,7 @@ export const HeroSection = () => {
             
             <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">Stop letting your career development happen by accident</h1>
             
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Transform random learning into strategic career advancement. Track skills, set goals, and maintain momentum toward your 3-year vision.
-            </p>
+            <p className="text-xl text-gray-300 mb-8 leading-relaxed">The structured tracking system that transforms random learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and maintain momentum toward your next promotion.</p>
 
             <WaitlistForm />
 
