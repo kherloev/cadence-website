@@ -1,6 +1,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
+import { WaitlistForm } from "./WaitlistForm";
 
 export const HeroSection = () => {
   return (
@@ -20,6 +21,15 @@ export const HeroSection = () => {
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Cadence transforms random learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and maintain momentum toward your next promotion.
             </p>
+
+            <div className="mb-8">
+              <WaitlistForm 
+                source="hero"
+                placeholder="Enter your email to get early access"
+                buttonText="Get Early Access"
+                className="max-w-md"
+              />
+            </div>
 
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <div className="flex items-center space-x-1">

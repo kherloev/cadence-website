@@ -1,4 +1,6 @@
 
+import { WaitlistForm } from "./WaitlistForm";
+
 export const FinalCTASection = () => {
   return (
     <section id="about" className="container mx-auto px-4 py-16">
@@ -7,11 +9,20 @@ export const FinalCTASection = () => {
           Ready to Take Control of Your Career?
         </h2>
         <p className="text-xl text-gray-300 mb-8">
-          Structured career development is coming soon.
+          Join thousands of professionals who are transforming their career development from random to strategic.
         </p>
         
-        <p className="text-sm text-gray-400 mt-4">
-          Stay tuned for updates.
+        <div className="mb-6">
+          <WaitlistForm 
+            source="final-cta"
+            placeholder="Your email address"
+            buttonText="Join the Waitlist"
+            className="max-w-lg mx-auto"
+          />
+        </div>
+        
+        <p className="text-sm text-gray-400">
+          Be the first to know when Cadence launches. No spam, ever.
         </p>
       </div>
     </section>
