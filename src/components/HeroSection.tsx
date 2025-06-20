@@ -1,11 +1,8 @@
-
 import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 import { WaitlistForm } from "./WaitlistForm";
-
 export const HeroSection = () => {
-  return (
-    <section className="container mx-auto px-4 py-12 md:py-20">
+  return <section className="container mx-auto px-4 py-12 md:py-20">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
@@ -23,18 +20,13 @@ export const HeroSection = () => {
             </p>
 
             <div className="mb-8">
-              <WaitlistForm 
-                source="hero"
-                placeholder="Enter your email to get early access"
-                buttonText="Get Early Access"
-                className="max-w-md"
-              />
+              <WaitlistForm source="hero" placeholder="Enter your email to get early access" buttonText="Get Early Access" className="max-w-md" />
             </div>
 
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <div className="flex items-center space-x-1">
-                <Star className="w-4 h-4 fill-green-400 text-green-400" />
-                <span>Coming soon</span>
+                
+                
               </div>
             </div>
           </div>
@@ -57,11 +49,7 @@ export const HeroSection = () => {
               
               {/* Actual screenshot */}
               <div className="relative overflow-hidden rounded-lg">
-                <img 
-                  src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" 
-                  alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" 
-                  className="w-full h-auto rounded-lg shadow-lg" 
-                />
+                <img src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" className="w-full h-auto rounded-lg shadow-lg" />
                 
                 {/* Subtle glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-t from-green-500/5 to-transparent rounded-lg pointer-events-none"></div>
@@ -73,6 +61,5 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
