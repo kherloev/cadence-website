@@ -33,33 +33,22 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right side - App Screenshot */}
+          {/* Right side - Floating Screenshot */}
           <div className="relative">
-            {/* Device frame to make it look like a real app */}
-            <div className="relative bg-gray-800 rounded-2xl p-3 shadow-2xl border border-gray-700">
-              {/* Browser-like header */}
-              <div className="flex items-center space-x-2 mb-3 px-3 py-2 bg-gray-900 rounded-lg">
-                <div className="flex space-x-1">
-                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                </div>
-                <div className="flex-1 bg-gray-800 rounded px-3 py-1 text-xs text-gray-400">
-                  cadence.app
-                </div>
-              </div>
+            {/* Floating screenshot with subtle effects */}
+            <div className="relative group">
+              <img 
+                src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" 
+                alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" 
+                className="w-full h-auto rounded-xl shadow-2xl transform rotate-1 transition-transform duration-300 hover:rotate-0 hover:scale-105" 
+              />
               
-              {/* Actual screenshot */}
-              <div className="relative overflow-hidden rounded-lg">
-                <img src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" className="w-full h-auto rounded-lg shadow-lg" />
-                
-                {/* Subtle glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-t from-green-500/5 to-transparent rounded-lg pointer-events-none"></div>
-              </div>
+              {/* Enhanced glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-t from-green-500/20 to-transparent rounded-xl pointer-events-none"></div>
+              
+              {/* Background glow */}
+              <div className="absolute inset-0 bg-green-500/15 rounded-xl blur-2xl -z-10 scale-110"></div>
             </div>
-            
-            {/* Subtle background glow */}
-            <div className="absolute inset-0 bg-green-500/10 rounded-2xl blur-3xl -z-10 scale-110"></div>
           </div>
         </div>
       </div>
