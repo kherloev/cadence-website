@@ -4,15 +4,17 @@ import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import { Loader2, Check } from "lucide-react";
+
 interface WaitlistFormProps {
   source: string;
   placeholder?: string;
   buttonText?: string;
   className?: string;
 }
+
 export const WaitlistForm = ({
   source,
-  placeholder = "Enter your email",
+  placeholder = "Enter your email to join the waitlist",
   buttonText = "Join waitlist",
   className = ""
 }: WaitlistFormProps) => {
