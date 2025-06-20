@@ -1,8 +1,6 @@
-
 import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 import { WaitlistForm } from "./WaitlistForm";
-
 export const HeroSection = () => {
   return <section className="container mx-auto px-4 py-12 md:py-20">
       <div className="max-w-6xl mx-auto">
@@ -13,9 +11,7 @@ export const HeroSection = () => {
               Career Development • Reimagined
             </Badge>
             
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">
-              Stop letting your career development happen by accident
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">Manage your career like you manage your product</h1>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Cadence transforms random learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and maintain momentum toward your next promotion.
@@ -37,11 +33,7 @@ export const HeroSection = () => {
           <div className="relative">
             {/* Floating screenshot with subtle effects */}
             <div className="relative group">
-              <img 
-                src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" 
-                alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" 
-                className="w-full h-auto rounded-xl shadow-2xl transform rotate-1 transition-transform duration-300 hover:rotate-0 hover:scale-105" 
-              />
+              <img src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" className="w-full h-auto rounded-xl shadow-2xl transform rotate-1 transition-transform duration-300 hover:rotate-0 hover:scale-105" />
               
               {/* Enhanced glow effect */}
               <div className="absolute inset-0 bg-gradient-to-t from-green-500/20 to-transparent rounded-xl pointer-events-none"></div>
