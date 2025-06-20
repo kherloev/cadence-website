@@ -16,7 +16,7 @@ export const FinalCTASection = () => {
           <WaitlistForm 
             source="final-cta"
             placeholder="Your email address"
-            buttonText="Join the Waitlist"
+            buttonText="Join waitlist"
             className="max-w-lg mx-auto"
           />
         </div>

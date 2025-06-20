@@ -1,6 +1,8 @@
+
 import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 import { WaitlistForm } from "./WaitlistForm";
+
 export const HeroSection = () => {
   return <section className="container mx-auto px-4 py-12 md:py-20">
       <div className="max-w-6xl mx-auto">
@@ -20,7 +22,7 @@ export const HeroSection = () => {
             </p>
 
             <div className="mb-8">
-              <WaitlistForm source="hero" placeholder="Enter your email to get early access" buttonText="Get Early Access" className="max-w-md" />
+              <WaitlistForm source="hero" placeholder="Enter your email to get early access" buttonText="Join waitlist" className="max-w-md" />
             </div>
 
             <div className="flex items-center space-x-6 text-sm text-gray-400">
