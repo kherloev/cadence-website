@@ -13,7 +13,7 @@ export const HeroSection = () => {
             
             <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">Manage your career like you manage your product</h1>
             
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">Cadence transforms sporadic learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and keep sustained cadence toward your next promotion.</p>
+            <p className="text-xl text-gray-300 mb-8 leading-relaxed">Cadence transforms sporadic learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and find cadence toward your next promotion.</p>
 
             <div className="mb-8">
               <WaitlistForm source="hero" placeholder="Enter your email to get early access" buttonText="Join waitlist" className="max-w-md" />
