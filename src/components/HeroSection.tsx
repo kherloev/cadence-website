@@ -30,21 +30,14 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right side - Floating GIF */}
+          {/* Right side - Modern Elevated Card */}
           <div className="relative">
-            {/* Floating GIF with subtle effects */}
-            <div className="relative group">
+            <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 shadow-2xl">
               <img 
                 src="/lovable-uploads/Cadence demo.gif" 
                 alt="Cadence App Demo - Interactive career development interface" 
-                className="w-full h-auto rounded-xl shadow-2xl transform rotate-1 transition-transform duration-300 hover:rotate-0 hover:scale-105" 
+                className="w-full h-auto rounded-xl"
               />
-              
-              {/* Enhanced glow effect */}
-              <div className="absolute inset-0 bg-gradient-to-t from-green-500/20 to-transparent rounded-xl pointer-events-none"></div>
-              
-              {/* Background glow */}
-              <div className="absolute inset-0 bg-green-500/15 rounded-xl blur-2xl -z-10 scale-110"></div>
             </div>
           </div>
         </div>
