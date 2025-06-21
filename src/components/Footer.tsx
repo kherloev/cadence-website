@@ -8,9 +8,7 @@ export const Footer = () => {
             </div>
             <span className="text-xl font-serif font-bold">Cadence</span>
           </div>
-          <p className="text-sm text-gray-400">
-            © 2024 Cadence. All rights reserved.
-          </p>
+          <p className="text-sm text-gray-400">© 2025 Cadence. All rights reserved.</p>
         </div>
       </div>
     </footer>;
