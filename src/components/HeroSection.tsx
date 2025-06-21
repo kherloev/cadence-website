@@ -34,15 +34,15 @@ export const HeroSection = () => {
           <div className="relative">
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 shadow-2xl">
               <img 
-                src="https://github.com/kherloev/cadence-website/blob/e1cf077690c528cd57767c6e4eb08f607bd55c98/public/lovable-uploads/cadence-demo.gif" 
+                src="https://raw.githubusercontent.com/kherloev/cadence-website/e1cf077690c528cd57767c6e4eb08f607bd55c98/public/lovable-uploads/cadence-demo.gif" 
                 alt="Cadence App Demo - Interactive career development interface" 
                 className="w-full h-auto rounded-xl"
                 onError={(e) => {
                   console.log('Image failed to load:', e);
-                  console.log('Attempted path:', '/lovable-uploads/cadence-demo.gif');
+                  console.log('Attempted GitHub raw URL');
                 }}
                 onLoad={() => {
-                  console.log('Image loaded successfully');
+                  console.log('GitHub raw image loaded successfully');
                 }}
               />
             </div>
