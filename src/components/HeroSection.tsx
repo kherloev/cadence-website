@@ -34,12 +34,12 @@ export const HeroSection = () => {
           <div className="relative">
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 shadow-2xl">
               <img 
-                src="/lovable-uploads/Cadence%20demo.gif" 
+                src="/lovable-uploads/Cadence-demo.gif" 
                 alt="Cadence App Demo - Interactive career development interface" 
                 className="w-full h-auto rounded-xl"
                 onError={(e) => {
                   console.log('Image failed to load:', e);
-                  console.log('Attempted path:', '/lovable-uploads/Cadence%20demo.gif');
+                  console.log('Attempted path:', '/lovable-uploads/Cadence-demo.gif');
                 }}
                 onLoad={() => {
                   console.log('Image loaded successfully');
