@@ -34,7 +34,7 @@ export const HeroSection = () => {
           <div className="relative">
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 shadow-2xl">
               <img 
-                src="https://raw.githubusercontent.com/kherloev/cadence-website/590dfeebf09f8349dff9fce5be80d37ef69cd910/public/cadence-demo.gif" 
+                src="https://i.imgur.com/xbIixmZ.gif" 
                 alt="Cadence App Demo - Interactive career development interface" 
                 className="w-full h-auto rounded-xl"
                 onError={(e) => {
