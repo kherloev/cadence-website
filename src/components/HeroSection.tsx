@@ -1,8 +1,11 @@
+
 import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 import { WaitlistForm } from "./WaitlistForm";
+
 export const HeroSection = () => {
-  return <section className="container mx-auto px-4 py-12 md:py-20">
+  return (
+    <section className="container mx-auto px-4 py-12 md:py-20">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
@@ -27,11 +30,15 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right side - Floating Screenshot */}
+          {/* Right side - Floating GIF */}
           <div className="relative">
-            {/* Floating screenshot with subtle effects */}
+            {/* Floating GIF with subtle effects */}
             <div className="relative group">
-              <img src="/lovable-uploads/b86ce357-d2b6-41f5-b327-f4248d657ea9.png" alt="Cadence App - Reflection Interface showing Sarah Chen's weekly victory tracking" className="w-full h-auto rounded-xl shadow-2xl transform rotate-1 transition-transform duration-300 hover:rotate-0 hover:scale-105" />
+              <img 
+                src="/lovable-uploads/Cadence demo.gif" 
+                alt="Cadence App Demo - Interactive career development interface" 
+                className="w-full h-auto rounded-xl shadow-2xl transform rotate-1 transition-transform duration-300 hover:rotate-0 hover:scale-105" 
+              />
               
               {/* Enhanced glow effect */}
               <div className="absolute inset-0 bg-gradient-to-t from-green-500/20 to-transparent rounded-xl pointer-events-none"></div>
@@ -42,5 +49,6 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
