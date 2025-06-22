@@ -1,6 +1,5 @@
 
 import { Badge } from "@/components/ui/badge";
-import { Star } from "lucide-react";
 import { WaitlistForm } from "./WaitlistForm";
 
 export const HeroSection = () => {
@@ -21,13 +20,6 @@ export const HeroSection = () => {
             <div className="mb-8">
               <WaitlistForm source="hero" placeholder="Enter your email to get early access" buttonText="Join waitlist" className="max-w-md" />
             </div>
-
-            <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <div className="flex items-center space-x-1">
-                
-                
-              </div>
-            </div>
           </div>
 
           {/* Right side - Modern Elevated Card */}
@@ -35,15 +27,9 @@ export const HeroSection = () => {
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 shadow-2xl">
               <img 
                 src="https://i.imgur.com/xbIixmZ.gif" 
-                alt="Cadence App Demo - Interactive career development interface" 
+                alt="Cadence App Demo - Interactive career development interface showing quest planning and skill tracking features" 
                 className="w-full h-auto rounded-xl"
-                onError={(e) => {
-                  console.log('Image failed to load:', e);
-                  console.log('Attempted GitHub raw URL');
-                }}
-                onLoad={() => {
-                  console.log('GitHub raw image loaded successfully');
-                }}
+                loading="lazy"
               />
             </div>
           </div>
