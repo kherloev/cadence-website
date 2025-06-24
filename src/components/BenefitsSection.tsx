@@ -21,9 +21,7 @@ export const BenefitsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent leading-tight">Why those who go further choose Cadence</h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Choose systematic career development over hoping things work out
-          </p>
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">Move beyond random learning. Get the structured approach you need to reach your career destination.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
