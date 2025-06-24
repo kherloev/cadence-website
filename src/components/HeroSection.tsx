@@ -1,10 +1,7 @@
-
 import { Badge } from "@/components/ui/badge";
 import { WaitlistForm } from "./WaitlistForm";
-
 export const HeroSection = () => {
-  return (
-    <section className="container mx-auto px-4 py-12 md:py-20">
+  return <section className="container mx-auto px-4 py-12 md:py-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left side - Content */}
@@ -22,12 +19,7 @@ export const HeroSection = () => {
             </p>
 
             <div className="mb-8">
-              <WaitlistForm 
-                source="hero" 
-                placeholder="Enter your email to get early access" 
-                buttonText="Join waitlist" 
-                className="max-w-md" 
-              />
+              <WaitlistForm source="hero" placeholder="Enter your email to get early access" buttonText="Join waitlist" className="max-w-md" />
             </div>
           </div>
 
@@ -35,23 +27,15 @@ export const HeroSection = () => {
           <div className="lg:col-span-7 relative">
             {/* Simple container with just the GIF and subtle shadow */}
             <div className="relative max-w-2xl mx-auto">
-              <img 
-                src="https://i.imgur.com/xbIixmZ.gif" 
-                alt="Cadence App Demo - Interactive career development interface showing quest planning and skill tracking features" 
-                className="w-full h-auto rounded-2xl shadow-2xl shadow-black/40"
-                loading="lazy"
-              />
+              <img src="https://i.imgur.com/xbIixmZ.gif" alt="Cadence App Demo - Interactive career development interface showing quest planning and skill tracking features" className="w-full h-auto rounded-2xl shadow-2xl shadow-black/40" loading="lazy" />
             </div>
 
             {/* Subtitle for the demo */}
             <div className="text-center mt-8">
-              <p className="text-sm text-gray-500 font-medium">
-                Interactive Demo • Real-time Career Tracking
-              </p>
+              
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
