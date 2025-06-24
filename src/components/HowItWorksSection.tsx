@@ -15,9 +15,7 @@ export const HowItWorksSection = () => {
   return <section className="container mx-auto px-4 py-20 bg-gradient-to-b from-gray-900/20 to-gray-900/60">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">Your career development, put into system</h2>
-        <p className="text-gray-400 mb-16 max-w-2xl mx-auto">
-          A structured approach that transforms ambition into achievement
-        </p>
+        <p className="text-gray-400 mb-16 max-w-2xl mx-auto">Don't let luck decide your career. Sustain your cadence and develop the skills you need to succeed.</p>
         
         <div className="relative">
           {/* Connection line */}
