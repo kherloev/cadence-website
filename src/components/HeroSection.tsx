@@ -31,36 +31,20 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right side - Premium GIF Container */}
+          {/* Right side - Pure Minimalist GIF Container */}
           <div className="lg:col-span-7 relative">
-            {/* Ambient background glow */}
-            <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 via-blue-500/5 to-purple-500/10 rounded-3xl blur-3xl"></div>
-            
-            {/* Glassmorphic container */}
-            <div className="relative">
-              {/* Outer glow ring */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500/20 via-blue-500/20 to-emerald-500/20 rounded-3xl blur-sm"></div>
-              
-              {/* Main container */}
-              <div className="relative bg-gray-900/60 backdrop-blur-xl border border-gray-700/50 rounded-3xl p-2 shadow-2xl">
-                {/* Inner container with subtle gradient border */}
-                <div className="relative bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-2xl p-6 border border-gray-600/30">
-                  <img 
-                    src="https://i.imgur.com/xbIixmZ.gif" 
-                    alt="Cadence App Demo - Interactive career development interface showing quest planning and skill tracking features" 
-                    className="w-full h-auto rounded-xl shadow-2xl"
-                    loading="lazy"
-                  />
-                </div>
-                
-                {/* Floating accent elements */}
-                <div className="absolute -top-2 -right-2 w-4 h-4 bg-emerald-400 rounded-full opacity-60 animate-pulse"></div>
-                <div className="absolute -bottom-2 -left-2 w-3 h-3 bg-blue-400 rounded-full opacity-40 animate-pulse" style={{animationDelay: '1s'}}></div>
-              </div>
+            {/* Simple container with just the GIF and subtle shadow */}
+            <div className="relative max-w-2xl mx-auto">
+              <img 
+                src="https://i.imgur.com/xbIixmZ.gif" 
+                alt="Cadence App Demo - Interactive career development interface showing quest planning and skill tracking features" 
+                className="w-full h-auto rounded-2xl shadow-2xl shadow-black/40"
+                loading="lazy"
+              />
             </div>
 
             {/* Subtitle for the demo */}
-            <div className="text-center mt-6">
+            <div className="text-center mt-8">
               <p className="text-sm text-gray-500 font-medium">
                 Interactive Demo • Real-time Career Tracking
               </p>
