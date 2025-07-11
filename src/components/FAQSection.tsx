@@ -58,7 +58,7 @@ export const FAQSection = () => {
             Still have questions?
           </p>
           <a 
-            href="mailto:hello@cadence.career" 
+            href="mailto:hello.cadence.app@gmail.com" 
             className="inline-flex items-center gap-2 text-primary hover:text-primary-glow transition-colors font-mono font-semibold"
           >
             <span>Get in touch</span>
