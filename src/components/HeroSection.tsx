@@ -30,7 +30,7 @@ export const HeroSection = () => {
               variant="hero" 
               className="mb-4" 
             />
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Join the top 1% of PMs</p>
+            <p className="text-sm text-muted-foreground mt-4 font-sans">Join the top 1% of PMs today</p>
           </div>
           
           {/* Demo Placeholder */}
