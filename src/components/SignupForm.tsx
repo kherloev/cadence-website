@@ -31,16 +31,5 @@ export const SignupForm = ({
 
   const showIcon = variant === "hero" || variant === "prominent";
 
-  return (
-    <div className={`${className}`}>
-      <Button 
-        onClick={handleSignupClick}
-        className={getButtonStyles()}
-      >
-        {/* Sparkles icon removed to stop blinking */}
-        {buttonText}
-        {showIcon && <ArrowRight className="w-5 h-5 ml-2" />}
-      </Button>
-    </div>
-  );
+  return null;
 };
