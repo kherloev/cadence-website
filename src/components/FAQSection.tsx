@@ -25,6 +25,10 @@ export const FAQSection = () => {
     {
       question: "When will Cadence launch and what's the investment?",
       answer: "Currently in private beta with senior product managers at leading tech companies. Pricing will reflect the professional-grade nature of the platform, with founding member benefits for early adopters. Join the waitlist for priority access."
+    },
+    {
+      question: "Who is making Cadence?",
+      answer: "Cadence is the brainchild of me, Kasper Herløv. I am a product manager with lots of 180s in my career. Cadence is my try to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people."
     }
   ];
 
@@ -47,7 +51,22 @@ export const FAQSection = () => {
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="font-sans text-muted-foreground leading-relaxed pb-6">
-                {faq.answer}
+                {faq.question === "Who is making Cadence?" ? (
+                  <span>
+                    Cadence is the brainchild of me,{" "}
+                    <a 
+                      href="https://www.linkedin.com/in/kasperherloev/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary-glow transition-colors underline"
+                    >
+                      Kasper Herløv
+                    </a>
+                    . I am a product manager with lots of 180s in my career. Cadence is my try to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people.
+                  </span>
+                ) : (
+                  faq.answer
+                )}
               </AccordionContent>
             </AccordionItem>
           ))}
