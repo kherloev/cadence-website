@@ -10,9 +10,7 @@ export const HeroSection = () => {
       <div className="container mx-auto max-w-6xl text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
-          <Badge variant="outline" className="mb-8 border-primary/20 text-primary bg-primary/5 hover:bg-primary/10 transition-colors">
-            🚀 Professional-Grade Career Infrastructure
-          </Badge>
+          <Badge variant="outline" className="mb-8 border-primary/20 text-primary bg-primary/5 hover:bg-primary/10 transition-colors">🚀 Modern Career Infrastructure</Badge>
           
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-mono font-bold mb-6 leading-tight">
