@@ -42,19 +42,32 @@ export const DemoSection = () => {
           </div>
           
           {/* Skills Tracking */}
-          <div className="relative">
-            <div className="aspect-[4/3] bg-gradient-to-br from-card via-muted/50 to-card border border-border rounded-2xl shadow-elegant p-8 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-warning/10 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🎯</span>
+          <div className="relative group">
+            <div className="relative bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl overflow-hidden shadow-2xl border border-slate-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
+              {/* Subtle glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              
+              {/* Skills chart image */}
+              <div className="relative aspect-[16/10] p-6">
+                <img 
+                  src="/lovable-uploads/abdf5e71-3cd0-4cc0-ab95-a4773c2e6fb8.png" 
+                  alt="Skills Tracking - Radar chart showing skill development across multiple categories"
+                  className="w-full h-full object-contain rounded-xl"
+                />
+              </div>
+              
+              {/* Subtle overlay with label */}
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent p-6">
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                  <span className="text-sm font-medium text-slate-200">Skills Analysis</span>
                 </div>
-                <h3 className="text-lg font-mono font-semibold mb-2">Skill Tracking</h3>
-                <p className="text-sm text-muted-foreground font-sans">
-                  Visualize your superpowers and growth areas
-                </p>
               </div>
             </div>
-            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-warning rounded-full animate-pulse delay-500"></div>
+            
+            {/* Floating accent indicators */}
+            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-warning rounded-full animate-pulse delay-500 shadow-lg shadow-warning/50"></div>
+            <div className="absolute -top-3 -right-3 w-5 h-5 bg-blue-500 rounded-full animate-pulse delay-300 shadow-lg shadow-blue-500/50"></div>
           </div>
         </div>
         
