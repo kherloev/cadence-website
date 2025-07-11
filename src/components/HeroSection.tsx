@@ -1,9 +1,7 @@
 import { WaitlistForm } from "./WaitlistForm";
 import { Badge } from "@/components/ui/badge";
-
 export const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-primary-glow/5"></div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
@@ -32,15 +30,8 @@ export const HeroSection = () => {
           
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
-            <WaitlistForm 
-              source="hero"
-              placeholder="your.email@company.com"
-              buttonText="Request Early Access"
-              className="gap-3"
-            />
-            <p className="text-sm text-muted-foreground mt-4 font-sans">
-              Join 500+ product managers building their career cadence
-            </p>
+            <WaitlistForm source="hero" placeholder="your.email@company.com" buttonText="Request Early Access" className="gap-3" />
+            <p className="text-sm text-muted-foreground mt-4 font-sans">Join now and make the most of your career in product</p>
           </div>
           
           {/* Demo Placeholder */}
@@ -49,6 +40,5 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
