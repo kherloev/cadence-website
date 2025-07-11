@@ -1,5 +1,4 @@
 import { Target, TrendingUp, Users, Zap } from "lucide-react";
-import { SignupForm } from "./SignupForm";
 export const BenefitsSection = () => {
   const benefits = [{
     icon: Target,
@@ -52,14 +51,6 @@ export const BenefitsSection = () => {
                 </div>
               </div>;
         })}
-        </div>
-        
-        {/* CTA after benefits */}
-        <div className="text-center mt-16">
-          <SignupForm 
-            buttonText="Join now" 
-            variant="prominent"
-          />
         </div>
       </div>
       
