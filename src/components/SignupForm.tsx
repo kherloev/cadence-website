@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+
 interface SignupFormProps {
   buttonText?: string;
   className?: string;
   variant?: "default" | "hero" | "prominent" | "header";
 }
+
 export const SignupForm = ({
   buttonText = "Get Started",
   className = "",
@@ -13,6 +15,7 @@ export const SignupForm = ({
   const handleSignupClick = () => {
     window.open("https://app.hellocadence.com/auth", "_blank");
   };
+
   const getButtonStyles = () => {
     switch (variant) {
       case "hero":
@@ -25,8 +28,19 @@ export const SignupForm = ({
         return "bg-green-500 text-black font-semibold px-8 py-2 rounded-lg";
     }
   };
+
   const showIcon = variant === "hero" || variant === "prominent";
-  return <div className={className}>
-      
-    </div>;
+
+  return (
+    <div className={`${className}`}>
+      <Button 
+        onClick={handleSignupClick}
+        className={getButtonStyles()}
+      >
+        {/* Sparkles icon removed to stop blinking */}
+        {buttonText}
+        {showIcon && <ArrowRight className="w-5 h-5 ml-2" />}
+      </Button>
+    </div>
+  );
 };
