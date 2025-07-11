@@ -1,5 +1,5 @@
 export const Footer = () => {
-  return <footer className="border-t border-gray-800 bg-gray-900/50">
+  return <footer className="border-t border-border">
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
@@ -8,7 +8,7 @@ export const Footer = () => {
             </div>
             <span className="text-xl font-mono font-bold italic tracking-tighter">CADENCE</span>
           </div>
-          <p className="text-sm text-gray-400">© 2025 Cadence. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2025 Cadence. All rights reserved.</p>
         </div>
       </div>
     </footer>;
