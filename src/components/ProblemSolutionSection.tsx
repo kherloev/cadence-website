@@ -7,10 +7,7 @@ export const ProblemSolutionSection = () => {
             <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">Makeshift tools hol</h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               <p className="text-lg">You apply rigorous frameworks to product development, but your career advancement relies on scattered notes, unfinished Notion templates, and a dash of hope.</p>
-              <p>
-                Spreadsheets can't capture growth nuance. Notion requires too much setup. 
-                Performance reviews become guesswork. Your career deserves better infrastructure.
-              </p>
+              
             </div>
           </div>
           
