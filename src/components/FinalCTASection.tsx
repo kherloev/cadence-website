@@ -1,9 +1,6 @@
-
 import { SignupForm } from "./SignupForm";
-
 export const FinalCTASection = () => {
-  return (
-    <section id="about" className="container mx-auto px-4 py-20 bg-muted/30">
+  return <section id="about" className="container mx-auto px-4 py-20 bg-muted/30">
       <div className="max-w-3xl mx-auto text-center relative">
         {/* Ambient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-blue-500/5 to-purple-500/5 rounded-3xl blur-3xl"></div>
@@ -17,19 +14,11 @@ export const FinalCTASection = () => {
           </p>
           
           <div className="mb-8">
-            <SignupForm 
-              buttonText="Start Building Your Career" 
-              variant="prominent"
-              className="max-w-lg mx-auto" 
-            />
+            <SignupForm buttonText="Start Building Your Career" variant="prominent" className="max-w-lg mx-auto" />
           </div>
           
-          <p className="text-sm text-gray-500 flex items-center justify-center gap-2">
-            <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-            Join thousands already using Cadence
-          </p>
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
