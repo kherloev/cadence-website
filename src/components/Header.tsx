@@ -15,7 +15,6 @@ export const Header = () => {
           <SignupForm 
             buttonText="Get Started" 
             variant="header"
-            className="animate-pulse"
           />
         </div>
       </div>
