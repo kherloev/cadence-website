@@ -37,7 +37,7 @@ export const SignupForm = ({
         onClick={handleSignupClick}
         className={getButtonStyles()}
       >
-        {variant === "hero" && <Sparkles className="w-5 h-5 mr-2" />}
+        {/* Sparkles icon removed to stop blinking */}
         {buttonText}
         {showIcon && <ArrowRight className="w-5 h-5 ml-2" />}
       </Button>
