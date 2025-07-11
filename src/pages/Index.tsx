@@ -1,18 +1,28 @@
 
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
-import { BenefitsSection } from "@/components/BenefitsSection";
+import { ProblemSolutionSection } from "@/components/ProblemSolutionSection";
+import { FeatureHighlights } from "@/components/FeatureHighlights";
+import { DemoSection } from "@/components/DemoSection";
+import { UserStorySection } from "@/components/UserStorySection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { FAQSection } from "@/components/FAQSection";
 import { FinalCTASection } from "@/components/FinalCTASection";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-background text-foreground font-sans">
       <Header />
       <HeroSection />
-      <BenefitsSection />
+      <ProblemSolutionSection />
+      <FeatureHighlights />
+      <DemoSection />
+      <UserStorySection />
       <HowItWorksSection />
+      <TestimonialsSection />
+      <FAQSection />
       <FinalCTASection />
       <Footer />
     </div>

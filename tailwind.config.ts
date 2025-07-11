@@ -19,7 +19,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'serif': ['Playfair Display', 'serif'],
+				'mono': ['IBM Plex Mono', 'monospace'],
+				'sans': ['IBM Plex Sans', 'sans-serif'],
+				'serif': ['IBM Plex Serif', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -29,7 +31,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -55,6 +58,9 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
+				danger: 'hsl(var(--danger))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -65,6 +71,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-emerald': 'var(--gradient-emerald)',
+				'gradient-amber': 'var(--gradient-amber)',
+				'gradient-ruby': 'var(--gradient-ruby)',
+				'gradient-premium': 'var(--gradient-premium)',
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'glow': 'var(--shadow-glow)',
+				'glass': 'var(--glass-shadow)',
+			},
+			backdropBlur: {
+				'glass': '16px',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

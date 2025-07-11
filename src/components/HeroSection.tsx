@@ -1,41 +1,54 @@
-import { Badge } from "@/components/ui/badge";
 import { WaitlistForm } from "./WaitlistForm";
+import { Badge } from "@/components/ui/badge";
+
 export const HeroSection = () => {
-  return <section className="container mx-auto px-4 py-12 md:py-20">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          {/* Left side - Content */}
-          <div className="lg:col-span-5">
-            <Badge className="mb-6 bg-gradient-to-r from-emerald-500/20 to-emerald-600/20 text-emerald-300 border-emerald-500/30 hover:from-emerald-500/30 hover:to-emerald-600/30 transition-all duration-300">
-              Career Development • Reimagined
-            </Badge>
-            
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight bg-gradient-to-r from-white via-gray-100 to-gray-200 bg-clip-text text-transparent">
-              Manage your career like you manage your product
-            </h1>
-            
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-lg">
-              Cadence transforms sporadic learning into strategic career advancement. Set your 3-year quest, define actions, track skill progress, and find cadence toward your next promotion.
+  return (
+    <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-primary-glow/5"></div>
+      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary-glow/10 rounded-full blur-3xl"></div>
+      
+      <div className="container mx-auto max-w-6xl text-center relative z-10">
+        <div className="max-w-4xl mx-auto">
+          {/* Badge */}
+          <Badge variant="outline" className="mb-8 border-primary/20 text-primary bg-primary/5 hover:bg-primary/10 transition-colors">
+            ✨ Now with AI-Drafted Performance Reviews
+          </Badge>
+          
+          {/* Main Heading */}
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-mono font-bold mb-6 leading-tight">
+            Manage your career,{" "}
+            <span className="bg-gradient-emerald bg-clip-text text-transparent">
+              like your product
+            </span>
+          </h1>
+          
+          {/* Subheading */}
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">
+            Cadence is a career development tracker for product managers and professionals to 
+            build momentum, track growth, and achieve career quests—gamified and beautifully designed.
+          </p>
+          
+          {/* CTA */}
+          <div className="max-w-md mx-auto mb-12">
+            <WaitlistForm 
+              source="hero"
+              placeholder="your.email@company.com"
+              buttonText="Request Early Access"
+              className="gap-3"
+            />
+            <p className="text-sm text-muted-foreground mt-4 font-sans">
+              Join 500+ product managers building their career cadence
             </p>
-
-            <div className="mb-8">
-              <WaitlistForm source="hero" placeholder="Enter your email to get early access" buttonText="Join waitlist" className="max-w-md" />
-            </div>
           </div>
-
-          {/* Right side - Pure Minimalist GIF Container */}
-          <div className="lg:col-span-7 relative">
-            {/* Simple container with just the GIF and subtle shadow */}
-            <div className="relative max-w-2xl mx-auto">
-              <img src="https://i.imgur.com/xbIixmZ.gif" alt="Cadence App Demo - Interactive career development interface showing quest planning and skill tracking features" className="w-full h-auto rounded-2xl shadow-2xl shadow-black/40" loading="lazy" />
-            </div>
-
-            {/* Subtitle for the demo */}
-            <div className="text-center mt-8">
-              
-            </div>
+          
+          {/* Demo Placeholder */}
+          <div className="relative max-w-4xl mx-auto">
+            <img src="https://i.imgur.com/xbIixmZ.gif" alt="Cadence App Demo" className="w-full h-auto rounded-2xl shadow-elegant" loading="lazy" />
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
