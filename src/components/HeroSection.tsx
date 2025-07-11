@@ -1,4 +1,4 @@
-import { WaitlistForm } from "./WaitlistForm";
+import { SignupForm } from "./SignupForm";
 import { Badge } from "@/components/ui/badge";
 export const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
@@ -25,8 +25,8 @@ export const HeroSection = () => {
           
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
-            <WaitlistForm source="hero" placeholder="your.email@company.com" buttonText="Request Early Access" className="gap-3" />
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Seize your advantage now before everyone else notices</p>
+            <SignupForm buttonText="Get Started" className="gap-3" />
+            <p className="text-sm text-muted-foreground mt-4 font-sans">Start managing your career like a product today</p>
           </div>
           
           {/* Demo Placeholder */}

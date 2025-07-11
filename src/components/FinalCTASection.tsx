@@ -1,5 +1,5 @@
 
-import { WaitlistForm } from "./WaitlistForm";
+import { SignupForm } from "./SignupForm";
 
 export const FinalCTASection = () => {
   return (
@@ -17,17 +17,15 @@ export const FinalCTASection = () => {
           </p>
           
           <div className="mb-8">
-            <WaitlistForm 
-              source="final-cta" 
-              placeholder="Your email address" 
-              buttonText="Join waitlist" 
+            <SignupForm 
+              buttonText="Get Started" 
               className="max-w-lg mx-auto" 
             />
           </div>
           
           <p className="text-sm text-gray-500 flex items-center justify-center gap-2">
             <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-            Be the first to know when Cadence launches. No spam, ever.
+            Join thousands already using Cadence
           </p>
         </div>
       </div>
