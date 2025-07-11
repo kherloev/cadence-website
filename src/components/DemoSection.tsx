@@ -1,6 +1,5 @@
 export const DemoSection = () => {
-  return (
-    <section className="py-20 px-4">
+  return <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-mono font-bold mb-6">
@@ -47,24 +46,7 @@ export const DemoSection = () => {
         </div>
         
         {/* Feature Callouts */}
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="text-center p-6 bg-card border rounded-xl">
-            <div className="text-3xl mb-4">✨</div>
-            <h4 className="font-mono font-semibold mb-2">Glass-morphism UI</h4>
-            <p className="text-sm text-muted-foreground font-sans">Modern, clean design that feels premium</p>
-          </div>
-          <div className="text-center p-6 bg-card border rounded-xl">
-            <div className="text-3xl mb-4">🌙</div>
-            <h4 className="font-mono font-semibold mb-2">Dark Mode</h4>
-            <p className="text-sm text-muted-foreground font-sans">Seamless theme switching for any environment</p>
-          </div>
-          <div className="text-center p-6 bg-card border rounded-xl">
-            <div className="text-3xl mb-4">📱</div>
-            <h4 className="font-mono font-semibold mb-2">Mobile First</h4>
-            <p className="text-sm text-muted-foreground font-sans">Perfect experience on all devices</p>
-          </div>
-        </div>
+        
       </div>
-    </section>
-  );
+    </section>;
 };
