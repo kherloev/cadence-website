@@ -14,7 +14,7 @@ export const WhyPurposeBuiltSection = () => {
       icon: "📊"
     },
     {
-      tool: "Notion/Obsidian",
+      tool: "Note apps",
       problems: [
         "Requires extensive setup and maintenance",
         "No career-specific workflows built-in",
