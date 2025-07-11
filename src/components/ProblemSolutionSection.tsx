@@ -1,13 +1,16 @@
 export const ProblemSolutionSection = () => {
-  return <section className="py-20 px-4 bg-muted/30">
+  return <section className="py-20 px-4">
       <div className="container mx-auto max-w-4xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Problem */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">Makeshift tools hold you back</h2>
+            <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">Makeshift tools h</h2>
             <div className="space-y-4 text-muted-foreground font-sans">
-              <p className="text-lg">You apply rigorous frameworks to product development, but your career advancement relies on scattered notes, unfinished Notion templates, and a dash of hope.</p>
-              
+              <p className="text-lg">You apply rigorous frameworks to product development, but your career advancement relies on scattered notes, spreadsheets, and a dash of hope.</p>
+              <p>
+                Spreadsheets can't capture growth nuance. Notion requires too much setup. 
+                Performance reviews become guesswork. Your career deserves better infrastructure.
+              </p>
             </div>
           </div>
           
@@ -20,11 +23,8 @@ export const ProblemSolutionSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               <p className="text-lg">
-                Cadence is your career infrastructure. It's designed to help product managers develop their careers with the rigour they develop products. This, and only this.
-              </p>
-              <p>
-                Transform ad-hoc development into strategic advancement. Generate data-backed 
-                performance reviews. Scale your career with the same rigor you apply to products.
+                Cadence provides enterprise-grade career infrastructure designed specifically 
+                for product managers. Professional workflows, AI-powered insights, systematic tracking.
               </p>
             </div>
           </div>
