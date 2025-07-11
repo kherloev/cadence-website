@@ -20,11 +20,7 @@ export const DemoSection = () => {
               
               {/* Dashboard image */}
               <div className="relative aspect-[16/10] p-6">
-                <img 
-                  src="/lovable-uploads/1b917d6e-db65-493a-b8a2-de8c0be1d6f0.png" 
-                  alt="Dashboard Preview - Quest interface showing career progression tracking"
-                  className="w-full h-full object-contain rounded-xl"
-                />
+                <img src="/lovable-uploads/1b917d6e-db65-493a-b8a2-de8c0be1d6f0.png" alt="Dashboard Preview - Quest interface showing career progression tracking" className="w-full h-full object-contain rounded-xl" />
               </div>
               
               {/* Subtle overlay with label */}
@@ -37,9 +33,7 @@ export const DemoSection = () => {
             </div>
             
             {/* Corner badge */}
-            <div className="absolute top-4 right-4 bg-emerald-500/90 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-md font-medium shadow-lg">
-              Live
-            </div>
+            <div className="absolute top-4 right-4 bg-emerald-500/90 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-md font-medium shadow-lg">Quest</div>
           </div>
           
           {/* Skills Tracking */}
@@ -50,11 +44,7 @@ export const DemoSection = () => {
               
               {/* Skills chart image */}
               <div className="relative aspect-[16/10] p-6">
-                <img 
-                  src="/lovable-uploads/abdf5e71-3cd0-4cc0-ab95-a4773c2e6fb8.png" 
-                  alt="Skills Tracking - Radar chart showing skill development across multiple categories"
-                  className="w-full h-full object-contain rounded-xl"
-                />
+                <img src="/lovable-uploads/abdf5e71-3cd0-4cc0-ab95-a4773c2e6fb8.png" alt="Skills Tracking - Radar chart showing skill development across multiple categories" className="w-full h-full object-contain rounded-xl" />
               </div>
               
               {/* Subtle overlay with label */}
@@ -83,11 +73,7 @@ export const DemoSection = () => {
               
               {/* Actions image */}
               <div className="relative aspect-[16/10] p-6">
-                <img 
-                  src="/lovable-uploads/e722f560-e6c2-40c5-8767-50dc15730e19.png" 
-                  alt="Actions Management - Track promised actions and skill development progress"
-                  className="w-full h-full object-contain rounded-xl"
-                />
+                <img src="/lovable-uploads/e722f560-e6c2-40c5-8767-50dc15730e19.png" alt="Actions Management - Track promised actions and skill development progress" className="w-full h-full object-contain rounded-xl" />
               </div>
               
               {/* Subtle overlay with label */}
@@ -113,11 +99,7 @@ export const DemoSection = () => {
               
               {/* Assistant image */}
               <div className="relative aspect-[16/10] p-6">
-                <img 
-                  src="/lovable-uploads/98b6c97a-a0bc-4a45-b14b-960c207cf26f.png" 
-                  alt="AI Assistant - Generate performance reviews and career development content"
-                  className="w-full h-full object-contain rounded-xl"
-                />
+                <img src="/lovable-uploads/98b6c97a-a0bc-4a45-b14b-960c207cf26f.png" alt="AI Assistant - Generate performance reviews and career development content" className="w-full h-full object-contain rounded-xl" />
               </div>
               
               {/* Subtle overlay with label */}
