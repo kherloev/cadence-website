@@ -70,6 +70,67 @@ export const DemoSection = () => {
             <div className="absolute -top-3 -right-3 w-5 h-5 bg-blue-500 rounded-full animate-pulse delay-300 shadow-lg shadow-blue-500/50"></div>
           </div>
         </div>
+
+        {/* Second Row - Actions & Assistant */}
+        <div className="grid lg:grid-cols-2 gap-8 mb-12">
+          {/* Actions Tracking */}
+          <div className="relative group">
+            <div className="relative bg-gray-900 rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
+              {/* Subtle glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              
+              {/* Actions image */}
+              <div className="relative aspect-[16/10] p-6">
+                <img 
+                  src="/lovable-uploads/e722f560-e6c2-40c5-8767-50dc15730e19.png" 
+                  alt="Actions Management - Track promised actions and skill development progress"
+                  className="w-full h-full object-contain rounded-xl"
+                />
+              </div>
+              
+              {/* Subtle overlay with label */}
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent p-6">
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
+                  <span className="text-sm font-medium text-slate-200">Action Tracking</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Floating accent indicators */}
+            <div className="absolute -top-3 -right-3 w-5 h-5 bg-orange-500 rounded-full animate-pulse delay-100 shadow-lg shadow-orange-500/50"></div>
+            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-accent rounded-full animate-pulse delay-800 shadow-lg shadow-accent/50"></div>
+          </div>
+          
+          {/* AI Assistant */}
+          <div className="relative group">
+            <div className="relative bg-gray-900 rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
+              {/* Subtle glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              
+              {/* Assistant image */}
+              <div className="relative aspect-[16/10] p-6">
+                <img 
+                  src="/lovable-uploads/98b6c97a-a0bc-4a45-b14b-960c207cf26f.png" 
+                  alt="AI Assistant - Generate performance reviews and career development content"
+                  className="w-full h-full object-contain rounded-xl"
+                />
+              </div>
+              
+              {/* Subtle overlay with label */}
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent p-6">
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
+                  <span className="text-sm font-medium text-slate-200">AI Assistant</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Floating accent indicators */}
+            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-purple-500 rounded-full animate-pulse delay-600 shadow-lg shadow-purple-500/50"></div>
+            <div className="absolute -top-3 -right-3 w-6 h-6 bg-primary rounded-full animate-pulse delay-200 shadow-lg shadow-primary/50"></div>
+          </div>
+        </div>
         
         {/* Feature Callouts */}
         
