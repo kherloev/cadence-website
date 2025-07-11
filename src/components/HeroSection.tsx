@@ -23,10 +23,7 @@ export const HeroSection = () => {
           </h1>
           
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">
-            Purpose-built career advancement platform for product managers. 
-            Track growth systematically, generate AI-powered performance reviews, and accelerate your trajectory with professional-grade tools.
-          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">Cadence is a purpose-built career advancement platform for product managers. Plan and track growth systematically, draft performance reviews in seconds. Accelerate your trajectory with a tool made for the job.</p>
           
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
