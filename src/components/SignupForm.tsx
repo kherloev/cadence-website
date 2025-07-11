@@ -26,5 +26,16 @@ export const SignupForm = ({
     }
   };
   const showIcon = variant === "hero" || variant === "prominent";
-  return;
+  
+  return (
+    <div className={className}>
+      <Button
+        onClick={handleSignupClick}
+        className={getButtonStyles()}
+      >
+        {buttonText}
+        {showIcon && <ArrowRight className="ml-2 h-4 w-4" />}
+      </Button>
+    </div>
+  );
 };
