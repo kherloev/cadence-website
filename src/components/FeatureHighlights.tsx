@@ -56,8 +56,10 @@ export const FeatureHighlights = () => {
           {features.map((feature, index) => (
             <Card key={index} className={`${feature.color} backdrop-blur-glass hover:shadow-elegant transition-all duration-300 hover:-translate-y-1`}>
               <CardHeader>
-                <div className="text-4xl mb-4">{feature.icon}</div>
-                <CardTitle className="font-mono text-xl">{feature.title}</CardTitle>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-3xl">{feature.icon}</span>
+                  <CardTitle className="font-mono text-xl">{feature.title}</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
                 <CardDescription className="font-sans text-base leading-relaxed">
