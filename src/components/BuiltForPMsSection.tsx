@@ -47,14 +47,6 @@ export const BuiltForPMsSection = () => {
                   {workflow.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent>
-                <ul className="space-y-2">
-                  {workflow.details.map((detail, idx) => <li key={idx} className="flex items-start gap-2 font-sans text-sm">
-                      <span className="text-primary text-xs mt-1">•</span>
-                      <span className="text-muted-foreground">{detail}</span>
-                    </li>)}
-                </ul>
-              </CardContent>
             </Card>)}
         </div>
 
