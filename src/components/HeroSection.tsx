@@ -11,7 +11,7 @@ export const HeroSection = () => {
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
           <Badge variant="outline" className="mb-8 border-primary/20 text-primary bg-primary/5 hover:bg-primary/10 transition-colors">
-            ✨ Now with AI-Drafted Performance Reviews
+            🚀 Professional-Grade Career Infrastructure
           </Badge>
           
           {/* Main Heading */}
@@ -24,14 +24,14 @@ export const HeroSection = () => {
           
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">
-            Cadence is a career development tracker for product managers and professionals to 
-            build momentum, track growth, and achieve career quests—gamified and beautifully designed.
+            Purpose-built career advancement platform for product managers. 
+            Track growth systematically, generate AI-powered performance reviews, and accelerate your trajectory with professional-grade tools.
           </p>
           
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
             <WaitlistForm source="hero" placeholder="your.email@company.com" buttonText="Request Early Access" className="gap-3" />
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Join now and make the most of your career in product</p>
+            <p className="text-sm text-muted-foreground mt-4 font-sans">Join 500+ product managers advancing their careers systematically</p>
           </div>
           
           {/* Demo Placeholder */}

@@ -4,38 +4,38 @@ export const FeatureHighlights = () => {
   const features = [
     {
       icon: "📝",
-      title: "Structured Reflection",
-      description: "Smart prompts and guided journaling for weekly growth. Turn scattered thoughts into actionable insights.",
+      title: "Strategic Reflection",
+      description: "PM-specific prompts that mirror product review cycles. Transform scattered thoughts into career intelligence.",
       color: "bg-primary/5 border-primary/20"
     },
     {
       icon: "🎯",
-      title: "Skill Management",
-      description: "Add, rate, and focus on custom skills. Visualize your Liabilities, Median skills, and Superpowers over time.",
+      title: "PM Skill Framework",
+      description: "Pre-loaded competency model for product managers. Track progression from Liability to Superpower across core skills.",
       color: "bg-warning/5 border-warning/20"
     },
     {
       icon: "🗺️",
-      title: "Quest Planning",
-      description: "Set ambitious 3-year career quests and break them into achievable, trackable steps.",
+      title: "Career Roadmapping",
+      description: "Strategic 3-year career planning with milestone dependencies. Apply product thinking to your advancement.",
       color: "bg-primary-glow/5 border-primary-glow/20"
     },
     {
       icon: "📊",
-      title: "Progress Analytics",
-      description: "Beautiful charts, streaks, and stats that keep you motivated and show real growth.",
+      title: "Professional Analytics",
+      description: "Enterprise-grade insights into skill development, achievement patterns, and career trajectory modeling.",
       color: "bg-accent/5 border-accent/20"
     },
     {
       icon: "📈",
-      title: "Accountability",
-      description: "Stay accountable with weekly check-ins and momentum tracking that keeps you consistent on your career journey.",
+      title: "Performance Integration",
+      description: "Systematic progress tracking aligned with performance cycles. Build promotion cases with data-backed evidence.",
       color: "bg-warning/5 border-warning/20"
     },
     {
       icon: "🤖",
-      title: "AI Performance Reviews",
-      description: "Let AI draft your performance reviews, 1:1s, and career conversations based on your tracked progress.",
+      title: "AI Review Generation",
+      description: "Professional-grade performance reviews auto-generated from tracked achievements and skill development data.",
       color: "bg-primary/5 border-primary/20"
     }
   ];
@@ -45,11 +45,11 @@ export const FeatureHighlights = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-mono font-bold mb-6">
-            Everything you need to 
-            <span className="bg-gradient-emerald bg-clip-text text-transparent"> level up</span>
+            Professional-grade features for 
+            <span className="bg-gradient-emerald bg-clip-text text-transparent">systematic advancement</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-sans">
-            Comprehensive career development tools designed for ambitious product managers and professionals
+            Purpose-built infrastructure designed exclusively for product management career development
           </p>
         </div>
         

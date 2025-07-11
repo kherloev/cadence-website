@@ -3,28 +3,28 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export const FAQSection = () => {
   const faqs = [
     {
-      question: "How does the AI performance review feature work?",
-      answer: "Cadence analyzes your tracked progress, skill developments, achievements, and reflection notes to generate draft performance reviews, 1:1 talking points, and career conversation materials. You maintain full control and can edit everything before use."
+      question: "How does the AI performance review generation work?",
+      answer: "Cadence analyzes your tracked achievements, skill development, and reflection data to generate professional-grade performance reviews, promotion narratives, and 1:1 talking points. All outputs are fully editable and maintain your authentic voice while providing comprehensive evidence backing."
     },
     {
-      question: "Is my career data private and secure?",
-      answer: "Absolutely. All your data is encrypted and private to you. We never share career information with employers or third parties. You can export all your data at any time in JSON or Markdown format."
+      question: "What data security and privacy measures are in place?",
+      answer: "Enterprise-grade security with end-to-end encryption, GDPR compliance, and professional data handling standards. You own all your data and can export everything in multiple formats. We never share career information with employers or third parties."
     },
     {
-      question: "What's the difference between a quest and regular goal setting?",
-      answer: "Quests are ambitious 3-year career objectives (like 'VP of Product in Fintech') broken down into actionable milestones. Unlike static goals, quests evolve with you and integrate with skill tracking and reflection to create a complete development system."
+      question: "How does career roadmapping differ from regular goal setting?",
+      answer: "Our roadmapping applies product management frameworks to career planning. Create strategic 3-year objectives with milestone dependencies, skill prerequisites, and success metrics. Unlike static goals, roadmaps evolve with market changes and integrate with performance cycles."
     },
     {
-      question: "Can I use Cadence if I'm not a product manager?",
-      answer: "Yes! While designed with PMs in mind, Cadence works for any knowledge worker focused on systematic career development—designers, engineers, marketers, consultants, and other professionals building their careers strategically."
+      question: "Is Cadence exclusively for product managers?",
+      answer: "While purpose-built for PMs, Cadence serves any professional applying systematic thinking to career development—design leaders, engineering managers, strategy consultants, and other knowledge workers focused on structured advancement."
     },
     {
-      question: "How much time does weekly reflection take?",
-      answer: "Most users spend 10-15 minutes per week. Our guided prompts and smart suggestions make reflection efficient and actionable, not a burden."
+      question: "What's the time investment for maintaining my career data?",
+      answer: "10-15 minutes weekly for structured reflection, similar to product retrospectives. PM-specific prompts and smart suggestions ensure efficiency. Many users find this replaces scattered note-taking with systematic progress tracking."
     },
     {
-      question: "When will Cadence be available and what will it cost?",
-      answer: "We're currently in private beta with select product managers. Join our waitlist for early access. Pricing will be announced closer to public launch, with special rates for founding members."
+      question: "When will Cadence launch and what's the investment?",
+      answer: "Currently in private beta with senior product managers at leading tech companies. Pricing will reflect the professional-grade nature of the platform, with founding member benefits for early adopters. Join the waitlist for priority access."
     }
   ];
 

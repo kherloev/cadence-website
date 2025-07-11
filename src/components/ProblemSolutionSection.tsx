@@ -4,15 +4,15 @@ export const ProblemSolutionSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Problem */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">The plateau is real</h2>
+            <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">Makeshift tools limit your potential</h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               <p className="text-lg">
-                You've proven yourself as a product manager. You ship features, manage stakeholders, 
-                and drive results. But growth feels... random.
+                You apply rigorous frameworks to product development, but your career advancement 
+                relies on scattered notes, generic apps, and hope.
               </p>
               <p>
-                Sporadic learning. Unclear skill gaps. No systematic approach to advancement. 
-                You're working hard but not seeing the career progress you want.
+                Spreadsheets can't capture growth nuance. Notion requires too much setup. 
+                Performance reviews become guesswork. Your career deserves better infrastructure.
               </p>
             </div>
           </div>
@@ -26,12 +26,12 @@ export const ProblemSolutionSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               <p className="text-lg">
-                Cadence gives you a framework for continuous career development. 
-                Track skills, plan quests, reflect weekly, and measure progress.
+                Cadence provides enterprise-grade career infrastructure designed specifically 
+                for product managers. Professional workflows, AI-powered insights, systematic tracking.
               </p>
               <p>
-                Turn sporadic learning into strategic advancement. Get AI-drafted performance 
-                reviews based on your real progress. Build the career you actually want.
+                Transform ad-hoc development into strategic advancement. Generate data-backed 
+                performance reviews. Scale your career with the same rigor you apply to products.
               </p>
             </div>
           </div>
