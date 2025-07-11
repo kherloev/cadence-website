@@ -28,7 +28,7 @@ export const FeatureHighlights = () => {
     },
     {
       icon: "📈",
-      title: "Weekly Momentum",
+      title: "Accountability",
       description: "Stay accountable with weekly check-ins and momentum tracking that keeps you consistent on your career journey.",
       color: "bg-warning/5 border-warning/20"
     },
