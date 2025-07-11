@@ -9,10 +9,10 @@ export const FinalCTASection = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-blue-500/5 to-purple-500/5 rounded-3xl blur-3xl"></div>
         
         <div className="relative">
-          <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-gray-200 bg-clip-text text-transparent leading-tight">
+          <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6 text-foreground leading-tight">
             Ready to Take Control of Your Career?
           </h2>
-          <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
             Don't let luck decide your career. Sustain your cadence and develop the skills you need to succeed.
           </p>
           
