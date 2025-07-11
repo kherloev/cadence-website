@@ -27,9 +27,9 @@ export const FeatureHighlights = () => {
       color: "bg-accent/5 border-accent/20"
     },
     {
-      icon: "🏆",
-      title: "Gamified Badges",
-      description: "Earn achievements for consistency, growth milestones, and career accomplishments.",
+      icon: "📈",
+      title: "Weekly Momentum",
+      description: "Stay accountable with weekly check-ins and momentum tracking that keeps you consistent on your career journey.",
       color: "bg-warning/5 border-warning/20"
     },
     {
