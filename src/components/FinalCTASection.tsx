@@ -18,7 +18,8 @@ export const FinalCTASection = () => {
           
           <div className="mb-8">
             <SignupForm 
-              buttonText="Get Started" 
+              buttonText="Start Building Your Career" 
+              variant="prominent"
               className="max-w-lg mx-auto" 
             />
           </div>

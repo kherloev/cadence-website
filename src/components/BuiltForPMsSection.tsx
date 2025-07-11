@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { SignupForm } from "./SignupForm";
 export const BuiltForPMsSection = () => {
   const pmWorkflows = [{
     phase: "Weekly Reflection",
@@ -50,6 +51,22 @@ export const BuiltForPMsSection = () => {
             </Card>)}
         </div>
 
+        {/* Mid-section CTA */}
+        <div className="text-center mb-16">
+          <div className="bg-gradient-to-r from-primary/10 to-primary-glow/10 rounded-2xl p-8">
+            <h3 className="text-2xl font-bold mb-4">
+              Stop managing your career like it's a side project
+            </h3>
+            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+              Give your career the systematic attention it deserves. Start tracking, 
+              planning, and advancing with the same rigor you bring to product development.
+            </p>
+            <SignupForm 
+              buttonText="Begin Your Career System" 
+              variant="prominent"
+            />
+          </div>
+        </div>
         
       </div>
     </section>;
