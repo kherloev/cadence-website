@@ -1,42 +1,20 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
 export const WhyPurposeBuiltSection = () => {
-  const alternatives = [
-    {
-      tool: "Spreadsheets",
-      problems: [
-        "Manual data entry becomes overwhelming",
-        "No guided reflection or smart prompts",
-        "Limited visualization and analytics",
-        "No AI assistance for performance reviews"
-      ],
-      icon: "📊"
-    },
-    {
-      tool: "Note apps",
-      problems: [
-        "Requires extensive setup and maintenance",
-        "No career-specific workflows built-in",
-        "Generic templates don't fit PM needs",
-        "No progress tracking or gamification"
-      ],
-      icon: "📝"
-    },
-    {
-      tool: "Generic Apps",
-      problems: [
-        "Built for general productivity, not careers",
-        "Missing PM-specific skill frameworks",
-        "No integration with performance cycles",
-        "Limited professional development features"
-      ],
-      icon: "📱"
-    }
-  ];
-
-  return (
-    <section className="py-20 px-4 bg-muted/50">
+  const alternatives = [{
+    tool: "Spreadsheets",
+    problems: ["Manual data entry becomes overwhelming", "No guided reflection or smart prompts", "Limited visualization and analytics", "No AI assistance for performance reviews"],
+    icon: "📊"
+  }, {
+    tool: "Note apps",
+    problems: ["Requires extensive setup and maintenance", "No career-specific workflows built-in", "Generic templates don't fit PM needs", "No progress tracking or gamification"],
+    icon: "📝"
+  }, {
+    tool: "Generic Apps",
+    problems: ["Built for general productivity, not careers", "Missing PM-specific skill frameworks", "No integration with performance cycles", "Limited professional development features"],
+    icon: "📱"
+  }];
+  return <section className="py-20 px-4 bg-muted/50">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-6 border-primary/20 text-primary bg-primary/5">
@@ -48,15 +26,12 @@ export const WhyPurposeBuiltSection = () => {
               makeshift tools
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-sans leading-relaxed">
-            You wouldn't manage your product roadmap in a personal journal. 
-            Your career strategy deserves the same level of professional tooling.
-          </p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-sans leading-relaxed">You wouldn't manage your product roadmap in your mind. 
+Your career deserves professional tools.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {alternatives.map((alt, index) => (
-            <Card key={index} className="bg-card/80 backdrop-blur-sm border-destructive/20 hover:border-destructive/40 transition-all duration-300">
+          {alternatives.map((alt, index) => <Card key={index} className="bg-card/80 backdrop-blur-sm border-destructive/20 hover:border-destructive/40 transition-all duration-300">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-3xl">{alt.icon}</span>
@@ -65,16 +40,13 @@ export const WhyPurposeBuiltSection = () => {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
-                  {alt.problems.map((problem, idx) => (
-                    <li key={idx} className="flex items-start gap-2 font-sans text-sm">
+                  {alt.problems.map((problem, idx) => <li key={idx} className="flex items-start gap-2 font-sans text-sm">
                       <span className="text-destructive text-xs mt-1">✗</span>
                       <span className="text-muted-foreground">{problem}</span>
-                    </li>
-                  ))}
+                    </li>)}
                 </ul>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         <div className="bg-gradient-to-br from-primary/5 via-background to-primary-glow/5 rounded-2xl p-8 md:p-12 border border-primary/20">
@@ -119,6 +91,5 @@ export const WhyPurposeBuiltSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
