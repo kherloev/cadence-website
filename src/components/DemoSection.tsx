@@ -14,16 +14,12 @@ export const DemoSection = () => {
         <div className="grid lg:grid-cols-2 gap-8 mb-12">
           {/* Main Dashboard */}
           <div className="relative">
-            <div className="aspect-[4/3] bg-gradient-to-br from-card via-muted/50 to-card border border-border rounded-2xl shadow-elegant p-8 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">📊</span>
-                </div>
-                <h3 className="text-lg font-mono font-semibold mb-2">Dashboard Preview</h3>
-                <p className="text-sm text-muted-foreground font-sans">
-                  Your personal career command center
-                </p>
-              </div>
+            <div className="aspect-[4/3] bg-gradient-to-br from-card via-muted/50 to-card border border-border rounded-2xl shadow-elegant overflow-hidden">
+              <img 
+                src="/lovable-uploads/1b917d6e-db65-493a-b8a2-de8c0be1d6f0.png" 
+                alt="Dashboard Preview - Quest interface showing career progression tracking"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="absolute -top-3 -right-3 w-6 h-6 bg-primary rounded-full animate-pulse"></div>
           </div>
