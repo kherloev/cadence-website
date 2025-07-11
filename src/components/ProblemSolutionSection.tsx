@@ -1,5 +1,5 @@
 export const ProblemSolutionSection = () => {
-  return <section className="py-20 px-4">
+  return <section className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-4xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Problem */}

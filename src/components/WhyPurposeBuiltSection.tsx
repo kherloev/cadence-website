@@ -14,7 +14,7 @@ export const WhyPurposeBuiltSection = () => {
     problems: ["Miss the nuances of product management careers", "Can't prepare you for high-stakes conversations", "No understanding of what actually drives PM advancement", "Leave you guessing what leadership really values"],
     icon: "📱"
   }];
-  return <section className="py-20 px-4 bg-muted/50">
+  return <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-6 border-primary/20 text-primary bg-primary/5">
