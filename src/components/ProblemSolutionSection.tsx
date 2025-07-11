@@ -19,9 +19,7 @@ export const ProblemSolutionSection = () => {
               </span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
-              <p className="text-lg">
-                Cadence is your career infrastructure. It's designed to help product managers develop their careers with the rigour they develop products. This, and only this.
-              </p>
+              
               <p>
                 Transform ad-hoc development into strategic advancement. Generate data-backed 
                 performance reviews. Scale your career with the same rigor you apply to products.
