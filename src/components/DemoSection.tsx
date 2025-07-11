@@ -36,9 +36,10 @@ export const DemoSection = () => {
               </div>
             </div>
             
-            {/* Floating accent indicators */}
-            <div className="absolute -top-3 -right-3 w-6 h-6 bg-primary rounded-full animate-pulse shadow-lg shadow-primary/50"></div>
-            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-accent rounded-full animate-pulse delay-700 shadow-lg shadow-accent/50"></div>
+            {/* Corner badge */}
+            <div className="absolute top-4 right-4 bg-emerald-500/90 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-md font-medium shadow-lg">
+              Live
+            </div>
           </div>
           
           {/* Skills Tracking */}
@@ -65,9 +66,10 @@ export const DemoSection = () => {
               </div>
             </div>
             
-            {/* Floating accent indicators */}
-            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-warning rounded-full animate-pulse delay-500 shadow-lg shadow-warning/50"></div>
-            <div className="absolute -top-3 -right-3 w-5 h-5 bg-blue-500 rounded-full animate-pulse delay-300 shadow-lg shadow-blue-500/50"></div>
+            {/* Corner badge */}
+            <div className="absolute top-4 right-4 bg-blue-500/90 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-md font-medium shadow-lg">
+              Analytics
+            </div>
           </div>
         </div>
 
@@ -97,9 +99,10 @@ export const DemoSection = () => {
               </div>
             </div>
             
-            {/* Floating accent indicators */}
-            <div className="absolute -top-3 -right-3 w-5 h-5 bg-orange-500 rounded-full animate-pulse delay-100 shadow-lg shadow-orange-500/50"></div>
-            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-accent rounded-full animate-pulse delay-800 shadow-lg shadow-accent/50"></div>
+            {/* Corner badge */}
+            <div className="absolute top-4 right-4 bg-orange-500/90 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-md font-medium shadow-lg">
+              Goals
+            </div>
           </div>
           
           {/* AI Assistant */}
@@ -126,9 +129,10 @@ export const DemoSection = () => {
               </div>
             </div>
             
-            {/* Floating accent indicators */}
-            <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-purple-500 rounded-full animate-pulse delay-600 shadow-lg shadow-purple-500/50"></div>
-            <div className="absolute -top-3 -right-3 w-6 h-6 bg-primary rounded-full animate-pulse delay-200 shadow-lg shadow-primary/50"></div>
+            {/* Corner badge */}
+            <div className="absolute top-4 right-4 bg-purple-500/90 backdrop-blur-sm text-white text-xs px-2 py-1 rounded-md font-medium shadow-lg">
+              AI
+            </div>
           </div>
         </div>
         
