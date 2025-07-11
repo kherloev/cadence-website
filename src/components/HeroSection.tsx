@@ -16,7 +16,7 @@ export const HeroSection = () => {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-mono font-bold mb-6 leading-tight">
             Manage your career,{" "}
             <span className="bg-gradient-emerald bg-clip-text text-transparent">
-              like your product
+              like you manage your product
             </span>
           </h1>
           
