@@ -20,7 +20,7 @@ export const ProblemSolutionSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               
-              <p>
+              <p className="text-lg">
                 Transform ad-hoc development into strategic advancement. Generate data-backed 
                 performance reviews. Scale your career with the same rigor you apply to products.
               </p>
