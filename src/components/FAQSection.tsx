@@ -8,7 +8,7 @@ export const FAQSection = () => {
     },
     {
       question: "What data security and privacy measures are in place?",
-      answer: "Enterprise-grade security with end-to-end encryption, GDPR compliance, and professional data handling standards. You own all your data and can export everything in multiple formats. We never share career information with employers or third parties."
+      answer: "We never share career information with employers or third parties. Cadence uses Anthropic's LLM models to ensure privacy of data. Enterprise-grade security with end-to-end encryption, GDPR compliance, and professional data handling standards. You own all your data and can export everything in multiple formats."
     },
     {
       question: "How does career roadmapping differ from regular goal setting?",
