@@ -3,15 +3,15 @@ import { Badge } from "@/components/ui/badge";
 export const WhyPurposeBuiltSection = () => {
   const alternatives = [{
     tool: "Spreadsheets",
-    problems: ["Manual data entry becomes overwhelming", "No guided reflection or smart prompts", "Limited visualization and analytics", "No AI assistance for performance reviews"],
+    problems: ["Critical achievements get buried in endless rows", "No connection between daily work and career outcomes", "Impossible to identify patterns in your growth", "You forget key wins when promotion time comes"],
     icon: "📊"
   }, {
     tool: "Note apps",
-    problems: ["Requires extensive setup and maintenance", "No career-specific workflows built-in", "Generic templates don't fit PM needs", "No progress tracking or gamification"],
+    problems: ["Scattered thoughts that never build into action", "No structure for systematic career development", "Generic frameworks miss PM-specific challenges", "Your notes become a graveyard of good intentions"],
     icon: "📝"
   }, {
     tool: "Generic Apps",
-    problems: ["Built for general productivity, not careers", "Missing PM-specific skill frameworks", "No integration with performance cycles", "Limited professional development features"],
+    problems: ["Miss the nuances of product management careers", "Can't prepare you for high-stakes conversations", "No understanding of what actually drives PM advancement", "Leave you guessing what leadership really values"],
     icon: "📱"
   }];
   return <section className="py-20 px-4 bg-muted/50">
