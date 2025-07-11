@@ -45,7 +45,7 @@ export const FeatureHighlights = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-mono font-bold mb-6">
-            <span className="bg-gradient-emerald bg-clip-text text-transparent">Professional-grade features for systematic advancement</span>
+            <span className="bg-gradient-emerald bg-clip-text text-transparent">Professional features for systematic advancement</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-sans">
             Purpose-built infrastructure designed exclusively for product management career development
