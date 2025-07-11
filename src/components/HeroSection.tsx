@@ -26,7 +26,7 @@ export const HeroSection = () => {
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
             <WaitlistForm source="hero" placeholder="your.email@company.com" buttonText="Request Early Access" className="gap-3" />
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Join 500+ product managers advancing their careers systematically</p>
+            <p className="text-sm text-muted-foreground mt-4 font-sans">Seize your advantage now before everyone else notices</p>
           </div>
           
           {/* Demo Placeholder */}
