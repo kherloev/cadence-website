@@ -14,7 +14,7 @@ export const DemoSection = () => {
         <div className="grid lg:grid-cols-2 gap-8 mb-12">
           {/* Main Dashboard */}
           <div className="relative group">
-            <div className="relative bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl overflow-hidden shadow-2xl border border-slate-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
+            <div className="relative bg-[#161618] rounded-2xl overflow-hidden shadow-2xl border border-slate-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
               {/* Subtle glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
@@ -38,7 +38,7 @@ export const DemoSection = () => {
           
           {/* Skills Tracking */}
           <div className="relative group">
-            <div className="relative bg-gray-900 rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
+            <div className="relative bg-[#161618] rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
               {/* Subtle glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
@@ -65,7 +65,7 @@ export const DemoSection = () => {
         <div className="grid lg:grid-cols-2 gap-8 mb-12">
           {/* Actions Tracking */}
           <div className="relative group">
-            <div className="relative bg-gray-900 rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
+            <div className="relative bg-[#161618] rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
               {/* Subtle glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
@@ -89,7 +89,7 @@ export const DemoSection = () => {
           
           {/* AI Assistant */}
           <div className="relative group">
-            <div className="relative bg-gray-900 rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
+            <div className="relative bg-[#161618] rounded-2xl overflow-hidden shadow-2xl border border-gray-700/50 hover:border-primary/30 transition-all duration-500 group-hover:shadow-[0_0_50px_rgba(var(--primary),0.3)]">
               {/* Subtle glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
