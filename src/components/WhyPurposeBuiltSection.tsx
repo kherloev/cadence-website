@@ -75,7 +75,7 @@ Your career deserves professional tools.</p>
                 <div className="flex items-start gap-3">
                   <span className="text-success text-lg">✓</span>
                   <div>
-                    <p className="font-semibold font-mono">Professional Analytics</p>
+                    <p className="font-semibold font-mono">Career development analysis</p>
                     <p className="text-sm text-muted-foreground font-sans">Insights from every entry helps inform your skill development and trajectory.</p>
                   </div>
                 </div>
