@@ -19,11 +19,11 @@ export const DemoSection = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               {/* Dashboard image */}
-              <div className="relative aspect-[16/10] p-4">
+              <div className="relative aspect-[16/10] p-6">
                 <img 
                   src="/lovable-uploads/1b917d6e-db65-493a-b8a2-de8c0be1d6f0.png" 
                   alt="Dashboard Preview - Quest interface showing career progression tracking"
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-full h-full object-contain rounded-xl"
                 />
               </div>
               
