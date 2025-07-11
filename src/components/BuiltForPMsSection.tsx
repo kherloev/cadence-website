@@ -18,7 +18,7 @@ export const BuiltForPMsSection = () => {
     icon: "🎯"
   }];
   const pmSkills = ["Product Strategy", "User Research", "Data Analysis", "Technical Acumen", "Stakeholder Management", "Go-to-Market", "Product Design", "Leadership", "Metrics & Analytics", "Market Understanding", "Prioritization", "Communication"];
-  return <section className="py-20 px-4 bg-muted/30">
+  return <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-6 border-primary/20 text-primary bg-primary/5">

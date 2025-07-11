@@ -3,7 +3,7 @@ import { WaitlistForm } from "./WaitlistForm";
 
 export const FinalCTASection = () => {
   return (
-    <section id="about" className="container mx-auto px-4 py-20">
+    <section id="about" className="container mx-auto px-4 py-20 bg-muted/30">
       <div className="max-w-3xl mx-auto text-center relative">
         {/* Ambient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-blue-500/5 to-purple-500/5 rounded-3xl blur-3xl"></div>
