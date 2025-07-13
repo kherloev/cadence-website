@@ -1,3 +1,4 @@
+
 export const ProblemSolutionSection = () => {
   return <section className="py-20 px-4">
       <div className="container mx-auto max-w-4xl">
@@ -15,7 +16,7 @@ export const ProblemSolutionSection = () => {
           <div>
             <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">
               <span className="bg-gradient-emerald bg-clip-text text-transparent">
-                Structure your growth
+                Develop with rigor and purpose
               </span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
