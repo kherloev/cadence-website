@@ -35,7 +35,7 @@ export const TestimonialsSection = () => {
                 </p>
               </div>
               
-              <div className="flex items-center gap-4">
+              <div className="flex items-end gap-4">
                 <div className="w-12 h-12 bg-gradient-emerald rounded-full flex items-center justify-center">
                   <span className="text-xl">{testimonial.avatar}</span>
                 </div>
