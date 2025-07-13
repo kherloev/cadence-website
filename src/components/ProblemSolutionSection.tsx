@@ -21,7 +21,7 @@ review panic</h2>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               <p className="text-lg">Track and plan your growth systematically. When review time comes, AI drafts professional performance reviews highlighting your advancement and impact. No more scrambling. No more forgotten wins.</p>
-              <p className="text-lg">No more scrambling. No more forgotten wins. Just data-backed career progression.</p>
+              <p className="text-lg">Data-backed career progression. Putting you at the head of the pack.</p>
             </div>
           </div>
         </div>
