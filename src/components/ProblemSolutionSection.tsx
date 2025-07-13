@@ -7,7 +7,7 @@ export const ProblemSolutionSection = () => {
             <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">Performance 
 review panic</h2>
             <div className="space-y-4 text-muted-foreground font-sans">
-              <p className="text-lg">It's review season. You're staring a blank page, trying to remember what you accomplished 6 months ago. Your promotion depends on articulating growth you can barely recall.</p>
+              <p className="text-lg">It's review season. You're staring at a blank document, trying to remember what you accomplished 6 months ago. Your promotion depends on articulating growth you can barely recall.</p>
               <p className="text-lg">Sound familiar?</p>
             </div>
           </div>
