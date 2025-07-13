@@ -10,7 +10,7 @@ export const CoreBenefitsSection = () => {
     },
     {
       icon: "🤖",
-      title: "AI Review Generation", 
+      title: "AI draft Reviews", 
       description: "Professional performance reviews auto-generated from your tracked progress. Never scramble for achievements again.",
       color: "bg-primary-glow/5 border-primary-glow/20"
     },
