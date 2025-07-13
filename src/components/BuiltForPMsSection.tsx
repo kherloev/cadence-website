@@ -41,7 +41,7 @@ export const BuiltForPMsSection = () => {
           {pmWorkflows.map((workflow, index) => <Card key={index} className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-4xl">{workflow.icon}</span>
+                  <span className="text-2xl">{workflow.icon}</span>
                   <CardTitle className="font-mono text-xl">{workflow.phase}</CardTitle>
                 </div>
                 <CardDescription className="font-sans text-base">
