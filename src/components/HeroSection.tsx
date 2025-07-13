@@ -25,12 +25,8 @@ export const HeroSection = () => {
           
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
-            <SignupForm 
-              buttonText="Start Tracking Your Growth" 
-              variant="hero" 
-              className="mb-4" 
-            />
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Set yourself apart today</p>
+            <SignupForm buttonText="Start Tracking Your Growth" variant="hero" className="mb-4" />
+            <p className="text-sm text-muted-foreground mt-4 font-sans">Start managing your career like you manage product, today.</p>
           </div>
           
           {/* Demo Placeholder */}
