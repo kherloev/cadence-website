@@ -26,8 +26,7 @@ export const WhyPurposeBuiltSection = () => {
               makeshift tools
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-sans leading-relaxed">You wouldn't manage your product roadmap in your mind. 
-Your career deserves professional tools.</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-sans leading-relaxed">You wouldn't manage your product roadmap all in your head.  Your career deserves professional tools.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
