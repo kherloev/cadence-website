@@ -19,7 +19,7 @@ export const AlternativesSection = () => {
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-6 border-primary/20 text-primary bg-primary/5">Tool for purpose</Badge>
           <h2 className="text-4xl md:text-5xl font-mono font-bold mb-6">
-            Why PMs struggle with{" "}
+            Why product managers struggle with{" "}
             <span className="bg-gradient-emerald bg-clip-text text-transparent">
               generic tools
             </span>
