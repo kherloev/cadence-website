@@ -26,7 +26,7 @@ export const HeroSection = () => {
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
             <SignupForm 
-              buttonText="Generate Your First AI Review" 
+              buttonText="Start Tracking Your Growth" 
               variant="hero" 
               className="mb-4" 
             />

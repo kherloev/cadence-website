@@ -17,7 +17,7 @@ export const FinalCTASection = () => {
           </p>
           
           <div className="mb-8">
-            <SignupForm buttonText="Generate My First AI Review" variant="prominent" className="max-w-lg mx-auto" />
+            <SignupForm buttonText="Get Started with Cadence" variant="prominent" className="max-w-lg mx-auto" />
           </div>
           
           
