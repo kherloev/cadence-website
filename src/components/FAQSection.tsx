@@ -24,7 +24,7 @@ export const FAQSection = () => {
     },
     {
       question: "What does Cadence cost?",
-      answer: "Cadence will be priced as a professional tool for serious product managers. Think of it as an investment in your career advancement—significantly less than a single coaching session, but with ongoing value throughout your entire career journey. Founding members get lifetime benefits."
+      answer: "Price is planned to be $99/year. Not a trivial amount, but as small investment in career advancement."
     },
     {
       question: "When will Cadence launch and what's the investment?",
