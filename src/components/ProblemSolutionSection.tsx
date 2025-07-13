@@ -14,16 +14,11 @@ export const ProblemSolutionSection = () => {
           {/* Solution */}
           <div>
             <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">
-              <span className="bg-gradient-emerald bg-clip-text text-transparent">
-                Structure your growth
-              </span>
+              <span className="bg-gradient-emerald bg-clip-text text-transparent">e</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               
-              <p className="text-lg">
-                Transform ad-hoc development into strategic advancement. Generate data-backed 
-                performance reviews. Scale your career with the same rigor you apply to products.
-              </p>
+              <p className="text-lg">Transform ad-hoc courses,  into strategic advancement. Generate data-backed performance reviews. Scale your career with the same rigor you apply to products.</p>
             </div>
           </div>
         </div>
