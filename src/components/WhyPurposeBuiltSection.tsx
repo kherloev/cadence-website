@@ -10,9 +10,9 @@ export const WhyPurposeBuiltSection = () => {
     problems: ["Scattered thoughts that never build into action", "No structure for systematic career development", "Generic frameworks miss PM-specific challenges", "Your notes become a graveyard of good intentions"],
     icon: "📝"
   }, {
-    tool: "Generic Apps",
-    problems: ["Miss the nuances of product management careers", "Can't prepare you for high-stakes conversations", "No understanding of what actually drives PM advancement", "Leave you guessing what leadership really values"],
-    icon: "📱"
+    tool: "Company Tools",
+    problems: ["Stuck within rigid annual review cycles", "Generic Workday development plans miss PM nuances", "Important career conversations lost in email threads", "No visibility into what really drives advancement decisions"],
+    icon: "🏢"
   }];
   return <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
