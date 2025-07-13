@@ -8,7 +8,7 @@ export const ProblemSolutionSection = () => {
 review panic</h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               <p className="text-lg">It's review season. You're staring at a blank document, trying to remember what you accomplished 6 months ago. Your promotion depends on articulating growth you can barely recall.</p>
-              <p className="text-lg">Sound familiar?</p>
+              <p className="text-lg">Sound familiar? You're not alone—67% of PMs struggle to showcase their career progression effectively.</p>
             </div>
           </div>
           
