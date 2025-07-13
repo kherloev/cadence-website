@@ -16,14 +16,14 @@ export const ProblemSolutionSection = () => {
           <div>
             <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">
               <span className="bg-gradient-emerald bg-clip-text text-transparent">
-                Develop with rigor and purpose
+                Replace with purpose
               </span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               
               <p className="text-lg">
-                Transform ad-hoc development into strategic advancement. Generate data-backed 
-                performance reviews. Scale your career with the same rigor you apply to products.
+                Transform ad-hoc experiences into strategic advancement documenting your progress. 
+                Scale your career with the same rigor you apply to products.
               </p>
             </div>
           </div>
