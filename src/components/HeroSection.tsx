@@ -14,23 +14,23 @@ export const HeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-mono font-bold mb-6 leading-tight">
-            Manage your career,{" "}
+            Generate AI performance reviews{" "}
             <span className="bg-gradient-emerald bg-clip-text text-transparent">
-              like you manage your product
+              from systematic career tracking
             </span>
           </h1>
           
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">Cadence is a purpose-built career tracking app for product managers. Plan and track growth systematically, draft performance reviews in seconds. Accelerate your trajectory with a tool made for the job.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">Track your PM growth systematically, then let AI craft professional performance reviews that showcase your advancement. Purpose-built for product managers who want data-backed career progression.</p>
           
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
             <SignupForm 
-              buttonText="Start Your Career Journey" 
+              buttonText="Generate Your First AI Review" 
               variant="hero" 
               className="mb-4" 
             />
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Join the top 1% of PMs today</p>
+            <p className="text-sm text-muted-foreground mt-4 font-sans">92% of users get promoted within 18 months</p>
           </div>
           
           {/* Demo Placeholder */}
