@@ -23,6 +23,10 @@ export const FAQSection = () => {
       answer: "10-15 minutes weekly for structured reflection, similar to product retrospectives. PM-specific prompts and smart suggestions ensure efficiency. Many users find this replaces scattered note-taking with systematic progress tracking."
     },
     {
+      question: "What does Cadence cost?",
+      answer: "Cadence will be priced as a professional tool for serious product managers. Think of it as an investment in your career advancement—significantly less than a single coaching session, but with ongoing value throughout your entire career journey. Founding members get lifetime benefits."
+    },
+    {
       question: "When will Cadence launch and what's the investment?",
       answer: "Currently in private beta with senior product managers at leading tech companies. Pricing will reflect the professional-grade nature of the platform, with founding member benefits for early adopters. Join the waitlist for priority access."
     },
