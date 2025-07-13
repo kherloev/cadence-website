@@ -1,22 +1,22 @@
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "The AI performance review feature alone is worth it. It captured all my growth over the quarter in a way I never could have articulated myself.",
-      author: "Alex Rodriguez",
-      role: "Principal PM at StartupCo",
-      avatar: "👨‍💼"
+      quote: "Can't wait for this to exist! I'm already imagining how much easier performance reviews will be when I don't have to scramble for achievements.",
+      author: "Alex (Future User)",
+      role: "Hopefully Soon-to-be Principal PM",
+      avatar: "🤞"
     },
     {
-      quote: "Finally, a career tool that doesn't feel like homework. The gamification keeps me motivated to actually stick with reflection and skill tracking.",
-      author: "Jamie Liu",
-      role: "Senior PM at DesignTech",
-      avatar: "👩‍💻"
+      quote: "Finally, someone building a career tool that won't feel like homework! Sign me up for the beta - my spreadsheet tracking system is... tragic.",
+      author: "Jamie (Wishful Thinker)",
+      role: "Senior PM Who Dreams of Organization",
+      avatar: "📊"
     },
     {
-      quote: "Cadence helped me see patterns in my career that I was blind to. The quest framework gave me clarity on what VP-level actually looks like.",
-      author: "Morgan Taylor",
-      role: "VP Product at ScaleCorp",
-      avatar: "🧑‍💼"
+      quote: "I've been doing this job for 10 years and still can't explain what 'VP-level' means. Please hurry up and build this thing!",
+      author: "Morgan (Career Questioner)",
+      role: "VP Product (Still Figuring It Out)",
+      avatar: "🤔"
     }
   ];
 
@@ -25,10 +25,13 @@ export const TestimonialsSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-mono font-bold mb-6">
-            Loved by product leaders
+            Future testimonials* 
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-sans">
-            See what product managers are saying about their Cadence experience
+            What product managers will probably say about Cadence once it exists
+          </p>
+          <p className="text-sm text-muted-foreground mt-2 font-sans italic">
+            *These are completely made up. The product is still in development! 🚧
           </p>
         </div>
         
@@ -54,27 +57,30 @@ export const TestimonialsSection = () => {
           ))}
         </div>
         
-        {/* Social Proof */}
+        {/* Fictional Social Proof */}
         <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-8 px-8 py-4 bg-card border rounded-full">
+          <div className="inline-flex items-center gap-8 px-8 py-4 bg-card border rounded-full opacity-60">
             <div className="flex items-center gap-2">
               <span className="text-2xl">⭐</span>
-              <span className="font-mono font-semibold">4.9/5</span>
-              <span className="text-sm text-muted-foreground font-sans">rating</span>
+              <span className="font-mono font-semibold">?.?/5</span>
+              <span className="text-sm text-muted-foreground font-sans">future rating</span>
             </div>
             <div className="w-px h-6 bg-border"></div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">👥</span>
-              <span className="font-mono font-semibold">500+</span>
-              <span className="text-sm text-muted-foreground font-sans">early users</span>
+              <span className="font-mono font-semibold">0</span>
+              <span className="text-sm text-muted-foreground font-sans">actual users</span>
             </div>
             <div className="w-px h-6 bg-border"></div>
             <div className="flex items-center gap-2">
-              <span className="text-2xl">🚀</span>
-              <span className="font-mono font-semibold">92%</span>
-              <span className="text-sm text-muted-foreground font-sans">get promoted</span>
+              <span className="text-2xl">🤷</span>
+              <span className="font-mono font-semibold">TBD%</span>
+              <span className="text-sm text-muted-foreground font-sans">will get promoted</span>
             </div>
           </div>
+          <p className="text-xs text-muted-foreground mt-2 font-sans italic">
+            (We'll update these with real numbers once we have them!)
+          </p>
         </div>
       </div>
     </section>
