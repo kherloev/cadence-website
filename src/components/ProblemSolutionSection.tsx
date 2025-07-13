@@ -20,7 +20,7 @@ review panic</h2>
               </span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
-              <p className="text-lg">Track your PM growth systematically with structured reflections. When review time comes, AI drafts professional performance reviews highlighting your advancement and impact. Just adjust</p>
+              <p className="text-lg">Track and plan your growth systematically. When review time comes, AI drafts professional performance reviews highlighting your advancement and impact. Adjust to your context and you are </p>
               <p className="text-lg">No more scrambling. No more forgotten wins. Just data-backed career progression.</p>
             </div>
           </div>
