@@ -27,10 +27,6 @@ export const FAQSection = () => {
       answer: "Price is planned to be $99/year. Not a trivial amount, but as small investment in career advancement."
     },
     {
-      question: "When will Cadence launch and what's the investment?",
-      answer: "Currently in private beta with senior product managers at leading tech companies. Pricing will reflect the professional-grade nature of the platform, with founding member benefits for early adopters. Join the waitlist for priority access."
-    },
-    {
       question: "Who is making Cadence?",
       answer: "Cadence is the brainchild of me, Kasper Herløv. I am a product manager with several 180s in my career. Cadence is my try to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people."
     }
