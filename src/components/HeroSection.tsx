@@ -14,7 +14,7 @@ export const HeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-mono font-bold mb-6 leading-tight">
-            Generate your performance reviews{" "}
+            Generate your performance reviews
             <span className="bg-gradient-emerald bg-clip-text text-transparent">
               with career tracking
             </span>
