@@ -28,14 +28,14 @@ export const TestimonialsSection = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => <div key={index} className="bg-card border rounded-2xl p-6 shadow-elegant">
-              <div className="mb-6">
+          {testimonials.map((testimonial, index) => <div key={index} className="bg-card border rounded-2xl p-6 shadow-elegant flex flex-col">
+              <div className="mb-6 flex-1">
                 <p className="text-lg font-sans italic text-foreground leading-relaxed">
                   "{testimonial.quote}"
                 </p>
               </div>
               
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 mt-auto">
                 <div className="w-12 h-12 bg-gradient-emerald rounded-full flex items-center justify-center">
                   <span className="text-xl">{testimonial.avatar}</span>
                 </div>
