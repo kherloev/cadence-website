@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
           
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">Track your PM growth systematically, then let AI craft professional performance reviews that showcase your advancement. Purpose-built for product managers who want data-backed career progression.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">Track your PM growth systematically, then let AI draft professional performance reviews that showcase your advancement. Purpose-built for product managers who want data-backed career progression.</p>
           
           {/* CTA */}
           <div className="max-w-md mx-auto mb-12">
