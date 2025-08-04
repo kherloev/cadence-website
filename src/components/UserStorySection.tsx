@@ -25,10 +25,7 @@ export const UserStorySection = () => {
             {/* Story Content */}
             <div className="md:col-span-2">
               <div className="space-y-4 text-muted-foreground font-sans">
-                <p className="text-lg italic">
-                  "I was stuck in the middle management plateau. Great at execution, 
-                  but unclear on what skills I needed for VP level."
-                </p>
+                <p className="text-lg italic">"I was stuck in the middle management plateau. Great at execution, but unclear on what skills I needed for Director level."</p>
                 <p>
                   Using Cadence, Sarah mapped her 3-year quest to VP of Product, 
                   identified key skill gaps in strategy and stakeholder management, 
