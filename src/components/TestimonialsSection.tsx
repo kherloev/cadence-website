@@ -1,17 +1,17 @@
 export const TestimonialsSection = () => {
   const testimonials = [{
     quote: "Can't wait for this to exist! I'm already imagining how much easier performance reviews will be when I don't have to scramble for achievements.",
-    author: "Alex (Future User)",
+    author: "Alex",
     role: "Hopefully Soon-to-be Principal PM",
     avatar: "🤞"
   }, {
     quote: "Finally, someone building a career tool that won't feel like homework! Sign me up for the beta - my spreadsheet tracking system is... tragic.",
-    author: "Jamie (Wishful Thinker)",
+    author: "Jamie",
     role: "Senior PM Who Dreams of Organization",
     avatar: "📊"
   }, {
     quote: "I've been doing this job for 10 years and still can't explain what 'VP-level' means. Please hurry up and build this thing!",
-    author: "Morgan (Career Questioner)",
+    author: "Morgan",
     role: "VP Product (Still Figuring It Out)",
     avatar: "🤔"
   }];
