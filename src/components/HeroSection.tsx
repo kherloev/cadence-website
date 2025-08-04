@@ -15,7 +15,7 @@ export const HeroSection = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-mono font-bold mb-6 leading-tight">
             Never write another performance review{" "}
-            <span className="bg-gradient-emerald bg-clip-text text-transparent">
+            <span className="text-muted-foreground">
               from scratch
             </span>
           </h1>
