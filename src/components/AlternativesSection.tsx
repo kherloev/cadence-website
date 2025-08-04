@@ -10,9 +10,9 @@ export const AlternativesSection = () => {
     problems: ["Stuck within rigid annual review cycles", "Generic development plans miss PM-specific challenges", "Important career conversations lost in email threads", "No visibility into what drives advancement decisions"],
     icon: "🏢"
   }, {
-    tool: "Generic Career Apps",
-    problems: ["One-size-fits-all frameworks miss PM nuances", "No understanding of product management career paths", "Feature bloat with irrelevant functionality", "Built for general professionals, not PMs"],
-    icon: "📱"
+    tool: "Hope for the best",
+    problems: ["Achievements disappear into memory without systematic tracking", "Rely on managers to notice and remember your contributions", "Wing it during performance reviews with scattered examples", "Miss promotion cycles because you weren't prepared"],
+    icon: "🤞"
   }];
   return <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
