@@ -30,14 +30,14 @@ export const AlternativesSection = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {alternatives.map((alt, index) => <Card key={index} className="bg-card/80 backdrop-blur-sm border-destructive/20 hover:border-destructive/40 transition-all duration-300">
+          {alternatives.map((alt, index) => <Card key={index} className="bg-card/80 backdrop-blur-sm border-destructive/20 hover:border-destructive/40 transition-all duration-300 flex flex-col">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-3xl">{alt.icon}</span>
                   <CardTitle className="font-mono text-xl text-destructive">{alt.tool}</CardTitle>
                 </div>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-1 flex flex-col justify-end">
                 <ul className="space-y-3">
                   {alt.problems.map((problem, idx) => <li key={idx} className="flex items-start gap-2 font-sans text-sm">
                       <span className="text-destructive text-xs mt-1">✗</span>
