@@ -36,14 +36,14 @@ export const CoreBenefitsSection = () => {
         
         <div className="grid md:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
-            <Card key={index} className={`${benefit.color} backdrop-blur-glass hover:shadow-elegant transition-all duration-300 hover:-translate-y-1`}>
+            <Card key={index} className={`${benefit.color} backdrop-blur-glass hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 flex flex-col`}>
               <CardHeader>
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-3xl">{benefit.icon}</span>
                   <CardTitle className="font-mono text-xl">{benefit.title}</CardTitle>
                 </div>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-1 flex flex-col justify-end">
                 <CardDescription className="font-sans text-base leading-relaxed">
                   {benefit.description}
                 </CardDescription>
