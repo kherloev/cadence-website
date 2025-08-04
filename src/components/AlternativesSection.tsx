@@ -11,7 +11,7 @@ export const AlternativesSection = () => {
     icon: "🏢"
   }, {
     tool: "Hope for the best",
-    problems: ["Achievements disappear into memory without systematic tracking", "Rely on managers to notice and remember your contributions", "Wing it during performance reviews with scattered examples", "Miss promotion cycles because you weren't prepared"],
+    problems: ["Wins and learnings are lost when relying on memory alone", "Rely on managers to notice and remember your contributions", "Wing it during performance reviews with scattered examples", "Miss promotion cycles because you weren't prepared"],
     icon: "🤞"
   }];
   return <section className="py-20 px-4">
