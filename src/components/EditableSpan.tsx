@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import DOMPurify from 'dompurify';
 
 interface EditableSpanProps {
   children: React.ReactNode;
@@ -32,7 +33,9 @@ export const EditableSpan = ({
   const handleSave = () => {
     setIsEditing(false);
     if (onSave && value !== children) {
-      onSave(value);
+      // Sanitize input to prevent XSS attacks
+      const sanitizedValue = DOMPurify.sanitize(value.trim());
+      onSave(sanitizedValue);
     }
   };
 
@@ -55,7 +58,13 @@ export const EditableSpan = ({
         ref={inputRef}
         type="text"
         value={value}
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => {
+          // Limit input length to prevent abuse
+          const inputValue = e.target.value;
+          if (inputValue.length <= 500) {
+            setValue(inputValue);
+          }
+        }}
         onKeyDown={handleKeyDown}
         onBlur={handleBlur}
         className={cn(

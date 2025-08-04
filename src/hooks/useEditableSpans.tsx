@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import DOMPurify from 'dompurify';
 
 interface UseEditableSpansOptions {
   enabled?: boolean;
@@ -41,11 +42,17 @@ export const useEditableSpans = ({
       input.style.minWidth = '100px';
       
       const saveEdit = () => {
-        const newValue = input.value;
-        span.textContent = newValue;
+        // Sanitize and validate input
+        const rawValue = input.value.trim();
+        if (rawValue.length > 500) {
+          alert('Text too long. Maximum 500 characters allowed.');
+          return;
+        }
+        const sanitizedValue = DOMPurify.sanitize(rawValue);
+        span.textContent = sanitizedValue;
         span.removeAttribute('data-editing');
         if (onEdit) {
-          onEdit(span, newValue);
+          onEdit(span, sanitizedValue);
         }
       };
 
@@ -55,6 +62,14 @@ export const useEditableSpans = ({
       };
 
       input.addEventListener('blur', saveEdit);
+      input.addEventListener('input', (e) => {
+        // Limit input length in real-time
+        const target = e.target as HTMLInputElement;
+        if (target.value.length > 500) {
+          target.value = target.value.substring(0, 500);
+        }
+      });
+      
       input.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
           saveEdit();

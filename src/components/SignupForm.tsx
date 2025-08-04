@@ -13,7 +13,20 @@ export const SignupForm = ({
   variant = "default"
 }: SignupFormProps) => {
   const handleSignupClick = () => {
-    window.open("https://app.hellocadence.com/auth", "_blank");
+    // Verify the external URL is safe before redirecting
+    const allowedDomain = "hellocadence.com";
+    const targetUrl = "https://app.hellocadence.com/auth";
+    
+    try {
+      const url = new URL(targetUrl);
+      if (url.hostname.endsWith(allowedDomain)) {
+        window.open(targetUrl, "_blank", "noopener,noreferrer");
+      } else {
+        console.warn("Blocked redirect to untrusted domain:", url.hostname);
+      }
+    } catch (error) {
+      console.error("Invalid URL:", error);
+    }
   };
 
   const getButtonStyles = () => {
