@@ -15,7 +15,7 @@ review panic</h2>
           {/* Solution */}
           <div>
             <h2 className="text-3xl md:text-4xl font-mono font-bold mb-6">
-              <span className="bg-gradient-emerald bg-clip-text text-transparent">Turn learning into reviews with AI</span>
+              <span className="bg-gradient-emerald bg-clip-text text-transparent" data-no-edit="true">Turn learning into reviews with AI</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans">
               <p className="text-lg">Track and plan your growth systematically. When review time comes, AI drafts professional performance reviews highlighting your advancement and impact. No more scrambling. No more forgotten wins.</p>

@@ -4,9 +4,9 @@ export const Header = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
-            <span className="text-black text-md font-mono italic font-bold">C</span>
+            <span className="text-black text-md font-mono italic font-bold" data-no-edit="true">C</span>
           </div>
-          <span className="text-xl font-mono font-bold italic tracking-tighter">CADENCE</span>
+          <span className="text-xl font-mono font-bold italic tracking-tighter" data-no-edit="true">CADENCE</span>
         </div>
         
         <div className="hidden sm:block">

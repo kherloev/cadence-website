@@ -10,13 +10,14 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const AppContent = () => {
-  useEditableSpans({
-    enabled: true,
-    onEdit: (element, newValue) => {
-      console.log('Span edited:', { element, newValue });
-      // You can add custom logic here to save changes
-    }
-  });
+  // Disabled global editing - use data-editable="true" for specific elements
+  // useEditableSpans({
+  //   enabled: true,
+  //   onEdit: (element, newValue) => {
+  //     console.log('Span edited:', { element, newValue });
+  //     // You can add custom logic here to save changes
+  //   }
+  // });
 
   return (
     <BrowserRouter>

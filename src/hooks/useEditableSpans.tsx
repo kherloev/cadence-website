@@ -10,7 +10,7 @@ interface UseEditableSpansOptions {
 export const useEditableSpans = ({ 
   enabled = true, 
   onEdit,
-  selector = 'span'
+  selector = '[data-editable="true"]'
 }: UseEditableSpansOptions = {}) => {
   useEffect(() => {
     if (!enabled) return;
@@ -19,11 +19,13 @@ export const useEditableSpans = ({
       const target = e.target as HTMLElement;
       if (!target.matches(selector)) return;
       
-      // Skip if already editing or if it's a UI component span
+      // Skip if already editing, protected, or if it's a UI component span
       if (target.querySelector('input') || 
           target.closest('[data-radix-collection-item]') ||
           target.closest('.lucide') ||
-          target.hasAttribute('data-editing')) {
+          target.hasAttribute('data-editing') ||
+          target.hasAttribute('data-no-edit') ||
+          target.closest('[data-no-edit="true"]')) {
         return;
       }
 
