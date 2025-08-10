@@ -28,7 +28,7 @@ export const FAQSection = () => {
     },
     {
       question: "Who is making Cadence?",
-      answer: "Cadence is the brainchild of me, Kasper Herløv. I am a product manager with several 180s in my career. Cadence is my try to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people."
+      answer: "Cadence is the brainchild of me, Kasper Herløv. I am a product manager with several 180s in my career. Cadence is my attempt to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people."
     }
   ];
 
@@ -72,7 +72,7 @@ export const FAQSection = () => {
                     >
                       Kasper Herløv
                     </a>
-                    . I am a product manager with several 180s in my career. Cadence is my try to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people.
+                    . I am a product manager with several 180s in my career. Cadence is my attempt to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people.
                   </span>
                 ) : (
                   faq.answer
