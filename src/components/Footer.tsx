@@ -8,7 +8,17 @@ export const Footer = () => {
             </div>
             <span className="text-xl font-mono font-bold italic tracking-tighter">CADENCE</span>
           </div>
-          <p className="text-sm text-muted-foreground">© 2025 Cadence. All rights reserved.</p>
+          <div className="flex items-center space-x-6">
+            <div className="flex space-x-4">
+              <a href="/legal#terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Terms of Service
+              </a>
+              <a href="/legal#privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Privacy Policy
+              </a>
+            </div>
+            <p className="text-sm text-muted-foreground">© 2025 Cadence. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>;
