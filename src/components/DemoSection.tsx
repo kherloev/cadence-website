@@ -3,53 +3,44 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ZoomIn } from "lucide-react";
 export const DemoSection = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const demoImages = [
-    {
-      src: "/lovable-uploads/1b917d6e-db65-493a-b8a2-de8c0be1d6f0.png",
-      alt: "Dashboard Preview - Quest interface showing career progression tracking",
-      label: "Live Dashboard",
-      badge: "Quest",
-      color: "emerald"
-    },
-    {
-      src: "/lovable-uploads/abdf5e71-3cd0-4cc0-ab95-a4773c2e6fb8.png",
-      alt: "Skills Tracking - Radar chart showing skill development across multiple categories",
-      label: "Skills Analysis",
-      badge: "Skills",
-      color: "blue"
-    },
-    {
-      src: "/lovable-uploads/e722f560-e6c2-40c5-8767-50dc15730e19.png",
-      alt: "Actions Management - Track promised actions and skill development progress",
-      label: "Action Tracking",
-      badge: "Actions",
-      color: "orange"
-    }
-  ];
-
-  const reviewTemplates = [
-    {
-      src: "/placeholder.svg",
-      alt: "360 Feedback Preparation - Comprehensive peer feedback questions tailored to product management competencies",
-      label: "360 Feedback Prep",
-      badge: "360°",
-      color: "blue"
-    },
-    {
-      src: "/placeholder.svg", 
-      alt: "Manager Discussion Preparation - Strategic talking points that highlight your measurable impact and skill progression",
-      label: "Manager Discussion",
-      badge: "1:1",
-      color: "emerald"
-    },
-    {
-      src: "/placeholder.svg",
-      alt: "Self Performance Review - Data-driven self-assessment with concrete examples from your tracked activities", 
-      label: "Self Performance Review",
-      badge: "Self",
-      color: "purple"
-    }
-  ];
+  const demoImages = [{
+    src: "/lovable-uploads/1b917d6e-db65-493a-b8a2-de8c0be1d6f0.png",
+    alt: "Dashboard Preview - Quest interface showing career progression tracking",
+    label: "Live Dashboard",
+    badge: "Quest",
+    color: "emerald"
+  }, {
+    src: "/lovable-uploads/abdf5e71-3cd0-4cc0-ab95-a4773c2e6fb8.png",
+    alt: "Skills Tracking - Radar chart showing skill development across multiple categories",
+    label: "Skills Analysis",
+    badge: "Skills",
+    color: "blue"
+  }, {
+    src: "/lovable-uploads/e722f560-e6c2-40c5-8767-50dc15730e19.png",
+    alt: "Actions Management - Track promised actions and skill development progress",
+    label: "Action Tracking",
+    badge: "Actions",
+    color: "orange"
+  }];
+  const reviewTemplates = [{
+    src: "/placeholder.svg",
+    alt: "360 Feedback Preparation - Comprehensive peer feedback questions tailored to product management competencies",
+    label: "360 Feedback Prep",
+    badge: "360°",
+    color: "blue"
+  }, {
+    src: "/placeholder.svg",
+    alt: "Manager Discussion Preparation - Strategic talking points that highlight your measurable impact and skill progression",
+    label: "Manager Discussion",
+    badge: "1:1",
+    color: "emerald"
+  }, {
+    src: "/placeholder.svg",
+    alt: "Self Performance Review - Data-driven self-assessment with concrete examples from your tracked activities",
+    label: "Self Performance Review",
+    badge: "Self",
+    color: "purple"
+  }];
   const getColorClasses = (color: string) => {
     const colorMap = {
       emerald: {
@@ -139,20 +130,14 @@ export const DemoSection = () => {
         
         {/* Demo Screenshots Grid - 3 columns */}
         <div className="grid lg:grid-cols-3 gap-8 mb-12">
-          {demoImages.map((image, index) => (
-            <ImageCard key={index} image={image} index={index} />
-          ))}
+          {demoImages.map((image, index) => <ImageCard key={index} image={image} index={index} />)}
         </div>
 
         {/* Review Templates Row */}
         <div className="mb-8">
-          <h3 className="text-2xl font-mono font-bold text-center mb-8">
-            Professional Review Templates
-          </h3>
+          
           <div className="grid lg:grid-cols-3 gap-8">
-            {reviewTemplates.map((template, index) => (
-              <ImageCard key={`template-${index}`} image={template} index={index} />
-            ))}
+            {reviewTemplates.map((template, index) => <ImageCard key={`template-${index}`} image={template} index={index} />)}
           </div>
         </div>
       </div>
