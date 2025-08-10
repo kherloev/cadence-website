@@ -6,105 +6,35 @@ interface LegalDocumentProps {
   type: "terms" | "privacy";
 }
 
-const sampleTermsContent = `# Terms of Service
-
-**Last updated: [DATE]**
-
-## 1. Acceptance of Terms
-
-By accessing and using Cadence, you accept and agree to be bound by the terms and provision of this agreement.
-
-## 2. Description of Service
-
-Cadence is a [describe your service here].
-
-## 3. User Responsibilities
-
-- You are responsible for maintaining the confidentiality of your account
-- You agree to provide accurate and complete information
-- You will not use the service for any unlawful purpose
-
-## 4. Privacy Policy
-
-Your privacy is important to us. Please review our Privacy Policy, which also governs your use of the service.
-
-## 5. Limitation of Liability
-
-In no event shall Cadence be liable for any direct, indirect, incidental, special, or consequential damages.
-
-## 6. Changes to Terms
-
-We reserve the right to modify these terms at any time. We will notify users of any changes.
-
-## 7. Contact Information
-
-For questions about these Terms of Service, please contact us at legal@cadence.com.`;
-
-const samplePrivacyContent = `# Privacy Policy
-
-**Last updated: [DATE]**
-
-## 1. Information We Collect
-
-We collect information you provide directly to us, such as when you create an account, use our service, or contact us.
-
-### Personal Information
-- Name and email address
-- Account credentials
-- Profile information
-
-### Usage Information
-- How you interact with our service
-- Features you use
-- Time and frequency of use
-
-## 2. How We Use Your Information
-
-We use the information we collect to:
-- Provide and maintain our service
-- Process transactions
-- Send you communications
-- Improve our service
-
-## 3. Information Sharing
-
-We do not sell, trade, or otherwise transfer your personal information to third parties except as described in this policy.
-
-## 4. Data Security
-
-We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
-
-## 5. Your Rights
-
-You have the right to:
-- Access your personal information
-- Correct inaccurate information
-- Delete your account and data
-- Data portability
-
-## 6. Cookie Policy
-
-We use cookies and similar technologies to enhance your experience and analyze usage patterns.
-
-## 7. Changes to This Policy
-
-We will notify you of any changes to this Privacy Policy by posting the new policy on this page.
-
-## 8. Contact Us
-
-If you have questions about this Privacy Policy, please contact us at privacy@cadence.com.`;
-
 export const LegalDocument = ({ type }: LegalDocumentProps) => {
   const [content, setContent] = useState<string>("");
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string>("");
 
   useEffect(() => {
-    // Simulate loading and set sample content
-    // In a real app, you would fetch from your markdown files
-    setTimeout(() => {
-      setContent(type === "terms" ? sampleTermsContent : samplePrivacyContent);
-      setLoading(false);
-    }, 500);
+    const loadContent = async () => {
+      try {
+        setLoading(true);
+        setError("");
+        
+        const fileName = type === "terms" ? "terms-of-service.md" : "privacy-policy.md";
+        const response = await fetch(`/legal/${fileName}`);
+        
+        if (!response.ok) {
+          throw new Error(`Failed to load ${type} document`);
+        }
+        
+        const text = await response.text();
+        setContent(text);
+      } catch (err) {
+        setError(`Unable to load ${type} document. Please try again later.`);
+        console.error("Error loading legal document:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadContent();
   }, [type]);
 
   if (loading) {
@@ -117,6 +47,14 @@ export const LegalDocument = ({ type }: LegalDocumentProps) => {
         <Skeleton className="h-6 w-1/2 mt-6" />
         <Skeleton className="h-4 w-full" />
         <Skeleton className="h-4 w-full" />
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="text-center py-8">
+        <p className="text-muted-foreground">{error}</p>
       </div>
     );
   }
