@@ -23,19 +23,19 @@ export const DemoSection = () => {
     color: "orange"
   }];
   const reviewTemplates = [{
-    src: "/placeholder.svg",
+    src: "/lovable-uploads/360.png",
     alt: "360 Feedback Preparation - Comprehensive peer feedback questions tailored to product management competencies",
     label: "360 Feedback Prep",
     badge: "360°",
     color: "blue"
   }, {
-    src: "/placeholder.svg",
+    src: "/lovable-uploads/Manager.png",
     alt: "Manager Discussion Preparation - Strategic talking points that highlight your measurable impact and skill progression",
     label: "Manager Discussion",
     badge: "1:1",
     color: "emerald"
   }, {
-    src: "/placeholder.svg",
+    src: "/lovable-uploads/Self.png",
     alt: "Self Performance Review - Data-driven self-assessment with concrete examples from your tracked activities",
     label: "Self Performance Review",
     badge: "Self",
