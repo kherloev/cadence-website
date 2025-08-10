@@ -51,7 +51,17 @@ export const FAQSection = () => {
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="font-sans text-muted-foreground leading-relaxed pb-6">
-                {faq.question === "Who is making Cadence?" ? (
+                 {faq.question === "What data security and privacy measures are in place?" ? (
+                  <span>
+                    {faq.answer}{" "}
+                    <a 
+                      href="/legal" 
+                      className="text-primary hover:text-primary-glow transition-colors underline"
+                    >
+                      Learn more
+                    </a>
+                  </span>
+                ) : faq.question === "Who is making Cadence?" ? (
                   <span>
                     Cadence is the brainchild of me,{" "}
                     <a 
