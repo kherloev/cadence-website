@@ -23,6 +23,12 @@ export const DemoSection = () => {
     color: "orange"
   }];
   const reviewTemplates = [{
+    src: "/lovable-uploads/Self.png",
+    alt: "Self Performance Review - Data-driven self-assessment with concrete examples from your tracked activities",
+    label: "Performance review",
+    badge: "Self",
+    color: "purple"
+  }, {
     src: "/lovable-uploads/360.png",
     alt: "360 Feedback Preparation - Comprehensive peer feedback questions tailored to product management competencies",
     label: "360 Feedback Prep",
@@ -34,12 +40,6 @@ export const DemoSection = () => {
     label: "Manager Discussion",
     badge: "1:1",
     color: "emerald"
-  }, {
-    src: "/lovable-uploads/Self.png",
-    alt: "Self Performance Review - Data-driven self-assessment with concrete examples from your tracked activities",
-    label: "Self Performance Review",
-    badge: "Self",
-    color: "purple"
   }];
   const getColorClasses = (color: string) => {
     const colorMap = {
