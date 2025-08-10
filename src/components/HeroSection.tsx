@@ -31,7 +31,7 @@ export const HeroSection = () => {
           
           {/* Demo Placeholder */}
           <div className="relative max-w-4xl mx-auto">
-            <img src="https://i.imgur.com/xbIixmZ.gif" alt="Cadence App Demo" className="w-full h-auto rounded-2xl shadow-elegant" loading="lazy" />
+            <img src="https://imgur.com/a/asmkGp9" alt="Cadence App Demo" className="w-full h-auto rounded-2xl shadow-elegant" loading="lazy" />
           </div>
         </div>
       </div>
