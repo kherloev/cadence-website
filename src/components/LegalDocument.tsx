@@ -25,7 +25,14 @@ export const LegalDocument = ({ type }: LegalDocumentProps) => {
         }
         
         const text = await response.text();
-        setContent(text);
+        
+        // Replace all email references with generic "contact us" links
+        const processedText = text
+          .replace(/\[Contact us\]\(mailto:kasper\.herloev@gmail\.com\)/g, '[Contact us](mailto:contact@hellocadence.com)')
+          .replace(/\[contacting us\]\(mailto:kasper\.herloev@gmail\.com\)/g, '[contacting us](mailto:contact@hellocadence.com)')
+          .replace(/kasper\.herloev@gmail\.com/g, 'contact@hellocadence.com');
+        
+        setContent(processedText);
       } catch (err) {
         setError(`Unable to load ${type} document. Please try again later.`);
         console.error("Error loading legal document:", err);
