@@ -27,6 +27,10 @@ export const FAQSection = () => {
       answer: "€9.99/month or €79.99/year (33% savings). A small investment in your career advancement with significant long-term returns."
     },
     {
+      question: "Can I just use Notion or ChatGPT for this?",
+      answer: "Yes you can! Those are great all-purpose tools and I have tried leveraging them both before making Cadence. In the end though, I personally found that I spent a lot of time rabbit holing in Notion to wrangle data into place the way I wanted it. In ChatGPT, I got a lot of direct sparing on every reflection I added, but I lost track of where I came from and where I was headed with the chat-based interface even as the memory function is quite good. In the end, Cadence is for people looking for a purpose-built tool. The price reflects this and the time you could save setting up Notion templates, custom GPTs and the likes, but I can totally see how that extra cost is not worth it for everyone."
+    },
+    {
       question: "Who is making Cadence?",
       answer: "Cadence is the brainchild of me, Kasper Herløv. Cadence is my attempt make a product which can what general note apps never did for me, help me properly assist my career and skill development. I sincerely hope I will meet fellow nerds who can turn Cadence into a true amplifier for product people."
     }
