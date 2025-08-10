@@ -60,7 +60,7 @@ Cadence is a web-based application that provides:
 
 - Subscriptions automatically renew unless cancelled
 - You can cancel anytime through your account settings or Stripe Customer Portal
-- **30-Day Money-Back Guarantee**: Request a refund by emailing kasper.herloev@gmail.com within 30 days of purchase. No questions asked, no further requirements.
+- **30-Day Money-Back Guarantee**: Request a refund by [contacting us](mailto:kasper.herloev@gmail.com) within 30 days of purchase. No questions asked, no further requirements.
 - No refunds for partial months or unused periods after the 30-day period
 - Cancellation takes effect at the end of your current billing period
 
@@ -425,14 +425,14 @@ Our failure to enforce any provision does not waive our right to enforce it late
 
 For questions about these Terms or our service:
 
-**Email**: [kasper.herloev@gmail.com](mailto:kasper.herloev@gmail.com)  
+**Email**: [Contact us](mailto:kasper.herloev@gmail.com)  
 **Address**: Cadence by Tiny Ventures AS, Røahagan 1P, 0754 Oslo, Norway  
 **Website**: [https://hellocadence.com](https://hellocadence.com)  
-**Data Protection Officer**: For GDPR-related inquiries, please contact us at [kasper.herloev@gmail.com](mailto:kasper.herloev@gmail.com)  
+**Data Protection Officer**: For GDPR-related inquiries, please [contact us](mailto:kasper.herloev@gmail.com)
 **Privacy Policy**: [View our Privacy Policy](../docs/privacy-policy.md)
 
 ---
 
 **Last Updated**: August 10, 2025
 
-For questions about these Terms, please contact us at [kasper.herloev@gmail.com](mailto:kasper.herloev@gmail.com) 
+For questions about these Terms, please [contact us](mailto:kasper.herloev@gmail.com) 

@@ -9,7 +9,7 @@ At Cadence by Tiny Ventures AS ("we," "our," or "us"), we are committed to prote
 This Privacy Policy is designed to comply with the General Data Protection Regulation (GDPR) and other applicable privacy laws. By using Cadence, you consent to the data practices described in this policy.
 
 **Data Controller**: Cadence by Tiny Ventures AS, Røahagan 1P, 0754 Oslo, Norway  
-**Data Protection Officer**: kasper.herloev@gmail.com
+**Data Protection Officer**: [Contact us](mailto:kasper.herloev@gmail.com)
 
 ## 2. Information We Collect
 
@@ -150,7 +150,7 @@ In the event of a data breach, we will:
 
 ### 6.5 How to Exercise Your Rights
 
-To exercise any of these rights, please contact us at [kasper.herloev@gmail.com](mailto:kasper.herloev@gmail.com). We will respond to your request within 30 days.
+To exercise any of these rights, please [contact us](mailto:kasper.herloev@gmail.com). We will respond to your request within 30 days.
 
 ## 7. Data Retention
 
@@ -207,9 +207,9 @@ Continued use of our service after changes constitutes acceptance of the updated
 
 **Data Controller**: Cadence by Tiny Ventures AS  
 **Address**: Røahagan 1P, 0754 Oslo, Norway  
-**Email**: [kasper.herloev@gmail.com](mailto:kasper.herloev@gmail.com)  
+**Email**: [Contact us](mailto:kasper.herloev@gmail.com)  
 **Website**: [https://hellocadence.com](https://hellocadence.com)  
-**Data Protection Officer**: [kasper.herloev@gmail.com](mailto:kasper.herloev@gmail.com)  
+**Data Protection Officer**: [Contact us](mailto:kasper.herloev@gmail.com)
 **Terms of Service**: [View our Terms of Service](../docs/terms-of-service.md)
 
 ### Supervisory Authority
