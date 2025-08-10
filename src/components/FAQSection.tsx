@@ -29,6 +29,10 @@ export const FAQSection = () => {
     {
       question: "Who is making Cadence?",
       answer: "Cadence is the brainchild of me, Kasper Herløv. I am a product manager with several 180s in my career. Cadence is my try to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people."
+    },
+    {
+      question: "Where can I find legal information?",
+      answer: "You can review our Terms of Service and Privacy Policy for detailed information about our service, data handling, and your rights."
     }
   ];
 
@@ -63,6 +67,24 @@ export const FAQSection = () => {
                       Kasper Herløv
                     </a>
                     . I am a product manager with several 180s in my career. Cadence is my try to do what general note apps never did for me. I sincerely hope I will meet fellow peeps who can turn Cadence into a true amplifier for product people.
+                  </span>
+                ) : faq.question === "Where can I find legal information?" ? (
+                  <span>
+                    You can review our{" "}
+                    <a 
+                      href="/legal?type=terms" 
+                      className="text-primary hover:text-primary-glow transition-colors underline"
+                    >
+                      Terms of Service
+                    </a>
+                    {" "}and{" "}
+                    <a 
+                      href="/legal?type=privacy" 
+                      className="text-primary hover:text-primary-glow transition-colors underline"
+                    >
+                      Privacy Policy
+                    </a>
+                    {" "}for detailed information about our service, data handling, and your rights.
                   </span>
                 ) : (
                   faq.answer
