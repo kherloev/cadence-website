@@ -23,12 +23,12 @@ export const FAQSection = () => {
       answer: "10-15 minutes weekly for structured reflection, similar to product retrospectives. PM-specific prompts and smart suggestions ensure efficiency. Many users find this replaces scattered note-taking with systematic progress tracking."
     },
     {
-      question: "What does Cadence cost?",
-      answer: "€9.99/month or €79.99/year (33% savings). A small investment in your career advancement with significant long-term returns."
+      question: "Can´t I just use Notion or ChatGPT for this?",
+      answer: "Yes you can! Those are great all-purpose tools and I have tried leveraging them both before making Cadence. In the end though, I personally found that I spent a lot of time rabbit holing in Notion to wrangle data into place the way I wanted it. In ChatGPT, I got a lot of direct sparing on every reflection I added, but I lost track of where I came from and where I was headed with the chat-based interface even as the memory function is quite good. In the end, Cadence is for people looking for a purpose-built tool. The price reflects this and the time you could save setting up Notion templates, custom GPTs and the likes, but I can totally see how that extra cost is not worth it for everyone."
     },
     {
-      question: "Can I just use Notion or ChatGPT for this?",
-      answer: "Yes you can! Those are great all-purpose tools and I have tried leveraging them both before making Cadence. In the end though, I personally found that I spent a lot of time rabbit holing in Notion to wrangle data into place the way I wanted it. In ChatGPT, I got a lot of direct sparing on every reflection I added, but I lost track of where I came from and where I was headed with the chat-based interface even as the memory function is quite good. In the end, Cadence is for people looking for a purpose-built tool. The price reflects this and the time you could save setting up Notion templates, custom GPTs and the likes, but I can totally see how that extra cost is not worth it for everyone."
+      question: "What does Cadence cost?",
+      answer: "€9.99/month or €79.99/year (33% savings). A small investment in your career advancement with significant long-term returns."
     },
     {
       question: "Who is making Cadence?",
