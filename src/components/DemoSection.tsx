@@ -6,7 +6,7 @@ export const DemoSection = () => {
   const demoImages = [{
     src: "/lovable-uploads/1b917d6e-db65-493a-b8a2-de8c0be1d6f0.png",
     alt: "Dashboard Preview - Quest interface showing career progression tracking",
-    label: "Live Dashboard",
+    label: "Progress dashboard",
     badge: "Quest",
     color: "emerald"
   }, {
