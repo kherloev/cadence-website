@@ -24,7 +24,7 @@ export const FAQSection = () => {
     },
     {
       question: "What does Cadence cost?",
-      answer: "Price is planned to be $99/year. Not a trivial amount, but as small investment in career advancement."
+      answer: "€9.99/month or €79.99/year (33% savings). A small investment in your career advancement with significant long-term returns."
     },
     {
       question: "Who is making Cadence?",
