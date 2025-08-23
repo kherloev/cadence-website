@@ -13,7 +13,7 @@ export const DemoButton = ({
   const handleDemoClick = () => {
     // Verify the external URL is safe before redirecting
     const allowedDomain = "hellocadence.com";
-    const targetUrl = "https://hellocadence.com/auth?demo=true";
+    const targetUrl = "https://app.hellocadence.com/auth?demo=true";
     
     try {
       const url = new URL(targetUrl);
