@@ -1,4 +1,5 @@
 import { SignupForm } from "./SignupForm";
+import { DemoButton } from "./DemoButton";
 import { Badge } from "@/components/ui/badge";
 export const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
@@ -24,8 +25,11 @@ export const HeroSection = () => {
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">Track your PM growth systematically, then let AI draft professional performance reviews that showcase your advancement. Purpose-built for product managers who want data-backed career progression.</p>
           
           {/* CTA */}
-          <div className="max-w-md mx-auto mb-12">
-            <SignupForm buttonText="Start Tracking Your Growth" variant="hero" className="mb-4" />
+          <div className="max-w-lg mx-auto mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
+              <SignupForm buttonText="Start Tracking Your Growth" variant="hero" />
+              <DemoButton variant="hero" />
+            </div>
             <p className="text-sm text-muted-foreground mt-4 font-sans">Start managing your career like you manage product, today.</p>
           </div>
           
