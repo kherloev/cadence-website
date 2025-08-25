@@ -29,16 +29,27 @@ export const SignupForm = ({
     }
   };
 
-  const getButtonStyles = () => {
+  const getButtonVariant = () => {
     switch (variant) {
       case "hero":
-        return "bg-gradient-to-r from-green-400 to-emerald-500 text-black font-bold px-12 py-4 text-lg rounded-xl shadow-lg";
+        return "hero";
       case "prominent":
-        return "bg-gradient-to-r from-green-500 to-emerald-600 text-black font-bold px-10 py-3 text-base rounded-lg shadow-md";
+        return "hero";
       case "header":
-        return "bg-green-500 text-black font-semibold px-6 py-2 text-sm rounded-lg";
+        return "default";
       default:
-        return "bg-green-500 text-black font-semibold px-8 py-2 rounded-lg";
+        return "default";
+    }
+  };
+
+  const getButtonSize = () => {
+    switch (variant) {
+      case "hero":
+        return "xl";
+      case "prominent":
+        return "lg";
+      default:
+        return "default";
     }
   };
 
@@ -48,7 +59,8 @@ export const SignupForm = ({
     <div className={`${className}`}>
       <Button 
         onClick={handleSignupClick}
-        className={getButtonStyles()}
+        variant={getButtonVariant()}
+        size={getButtonSize()}
       >
         {/* Sparkles icon removed to stop blinking */}
         {buttonText}

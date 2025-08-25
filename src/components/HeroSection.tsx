@@ -25,12 +25,14 @@ export const HeroSection = () => {
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto font-sans">Track your PM growth systematically, then let AI draft professional performance reviews that showcase your advancement. Purpose-built for product managers who want data-backed career progression.</p>
           
           {/* CTA */}
-          <div className="max-w-lg mx-auto mb-12">
-            <div className="flex flex-col gap-4 justify-center items-center mb-4">
+          <div className="max-w-2xl mx-auto mb-16">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <SignupForm buttonText="Start Tracking Your Growth" variant="hero" />
-              <DemoButton variant="link" />
+              <DemoButton variant="secondary" />
             </div>
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Start managing your career like you manage product, today.</p>
+            <p className="text-base text-muted-foreground font-sans leading-relaxed max-w-xl mx-auto">
+              Start managing your career like you manage product, today.
+            </p>
           </div>
           
           {/* Demo Placeholder */}
