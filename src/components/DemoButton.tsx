@@ -39,13 +39,13 @@ export const DemoButton = ({
   const getButtonStyles = () => {
     switch (variant) {
       case "hero":
-        return "font-semibold px-12 py-4 text-lg";
+        return "font-bold px-12 py-4 text-lg";
       case "header":
-        return "font-medium px-4 py-2 text-sm";
+        return "font-semibold px-4 py-2 text-sm";
       case "link":
         return "font-medium p-0";
       default:
-        return "font-medium px-6 py-2";
+        return "font-semibold px-6 py-2";
     }
   };
 
