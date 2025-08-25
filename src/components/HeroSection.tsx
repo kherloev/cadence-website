@@ -29,7 +29,7 @@ export const HeroSection = () => {
             <div className="flex flex-col gap-4 justify-center items-center mb-4">
               <SignupForm buttonText="Start Tracking Your Growth" variant="hero" />
             </div>
-            <p className="text-sm text-muted-foreground mt-4 font-sans">
+            <p className="text-sm text-muted-foreground mt-2 font-sans">
               Not ready to signup? <DemoButton variant="link" className="inline" /> first.
             </p>
           </div>
