@@ -28,9 +28,10 @@ export const HeroSection = () => {
           <div className="max-w-lg mx-auto mb-12">
             <div className="flex flex-col gap-4 justify-center items-center mb-4">
               <SignupForm buttonText="Start Tracking Your Growth" variant="hero" />
-              <DemoButton variant="link" />
             </div>
-            <p className="text-sm text-muted-foreground mt-4 font-sans">Start managing your career like you manage product, today.</p>
+            <p className="text-sm text-muted-foreground mt-4 font-sans">
+              Not ready to signup? <DemoButton variant="link" className="inline" /> first.
+            </p>
           </div>
           
           {/* Demo Placeholder */}
