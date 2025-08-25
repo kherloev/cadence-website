@@ -26,7 +26,7 @@ export const HeroSection = () => {
           
           {/* CTA */}
           <div className="max-w-lg mx-auto mb-12">
-            <div className="flex flex-col gap-4 justify-center items-center mb-4">
+            <div className="flex flex-col gap-4 justify-center items-center mb-1">
               <SignupForm buttonText="Start Tracking Your Growth" variant="hero" />
             </div>
             <p className="text-sm text-muted-foreground mt-2 font-sans">
