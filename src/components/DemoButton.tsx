@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 
 interface DemoButtonProps {
   className?: string;
-  variant?: "default" | "hero" | "header";
+  variant?: "default" | "hero" | "header" | "link";
 }
 
 export const DemoButton = ({
@@ -33,6 +33,8 @@ export const DemoButton = ({
         return "border border-primary/20 bg-background/50 backdrop-blur-sm text-primary hover:bg-primary/10 font-semibold px-12 py-4 text-lg rounded-xl";
       case "header":
         return "border border-primary/20 bg-background/50 backdrop-blur-sm text-primary hover:bg-primary/10 font-medium px-4 py-2 text-sm rounded-lg";
+      case "link":
+        return "text-primary hover:text-primary/80 underline-offset-4 hover:underline font-medium bg-transparent border-none shadow-none p-0";
       default:
         return "border border-primary/20 bg-background/50 backdrop-blur-sm text-primary hover:bg-primary/10 font-medium px-6 py-2 rounded-lg";
     }
