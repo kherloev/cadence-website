@@ -27,16 +27,25 @@ export const DemoButton = ({
     }
   };
 
+  const getButtonVariant = () => {
+    switch (variant) {
+      case "link":
+        return "link";
+      default:
+        return "ghost";
+    }
+  };
+
   const getButtonStyles = () => {
     switch (variant) {
       case "hero":
-        return "border border-primary/20 bg-background/50 backdrop-blur-sm text-primary hover:bg-primary/10 font-semibold px-12 py-4 text-lg rounded-xl";
+        return "font-semibold px-12 py-4 text-lg";
       case "header":
-        return "border border-primary/20 bg-background/50 backdrop-blur-sm text-primary hover:bg-primary/10 font-medium px-4 py-2 text-sm rounded-lg";
+        return "font-medium px-4 py-2 text-sm";
       case "link":
-        return "text-primary hover:text-primary/80 underline-offset-4 hover:underline font-medium bg-transparent border-none shadow-none p-0";
+        return "font-medium p-0";
       default:
-        return "border border-primary/20 bg-background/50 backdrop-blur-sm text-primary hover:bg-primary/10 font-medium px-6 py-2 rounded-lg";
+        return "font-medium px-6 py-2";
     }
   };
 
@@ -47,7 +56,7 @@ export const DemoButton = ({
       <Button 
         onClick={handleDemoClick}
         className={getButtonStyles()}
-        variant="outline"
+        variant={getButtonVariant()}
       >
         {showIcon && <Play className="w-5 h-5 mr-2" />}
         Try the demo
