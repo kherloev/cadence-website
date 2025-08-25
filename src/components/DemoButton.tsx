@@ -37,15 +37,16 @@ export const DemoButton = ({
   };
 
   const getButtonStyles = () => {
+    const baseHover = "hover:text-green-500 hover:bg-transparent";
     switch (variant) {
       case "hero":
-        return "font-bold px-12 py-4 text-lg";
+        return `font-bold px-12 py-4 text-lg ${baseHover}`;
       case "header":
-        return "font-semibold px-4 py-2 text-sm";
+        return `font-semibold px-4 py-2 text-sm ${baseHover}`;
       case "link":
-        return "font-medium p-0";
+        return "font-medium p-0 hover:text-green-500";
       default:
-        return "font-semibold px-6 py-2";
+        return `font-semibold px-6 py-2 ${baseHover}`;
     }
   };
 
