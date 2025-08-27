@@ -44,10 +44,10 @@ export const DemoButton = ({
   if (variant === "header") {
     return (
       <Button 
-        variant="secondary" 
+        variant="ghost" 
         size="sm"
         onClick={handleDemoClick}
-        className={className}
+        className={`font-semibold text-sm px-6 py-2 ${className}`}
       >
         Try the demo
       </Button>
