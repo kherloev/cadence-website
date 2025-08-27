@@ -8,7 +8,7 @@ interface SignupFormProps {
 }
 
 export const SignupForm = ({
-  buttonText = "Get Started",
+  buttonText = "Start free trial",
   className = "",
   variant = "default"
 }: SignupFormProps) => {
