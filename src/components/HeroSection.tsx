@@ -36,7 +36,6 @@ export const HeroSection = () => {
               <div className="flex items-center justify-center gap-2 text-xs text-muted-foreground/70 font-sans">
                 <span>Not ready to signup?</span>
                 <DemoButton variant="link" className="inline text-xs" />
-                <span>first.</span>
               </div>
             </div>
           </div>
