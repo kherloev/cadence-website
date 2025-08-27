@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
 
 interface DemoButtonProps {
@@ -27,26 +26,16 @@ export const DemoButton = ({
     }
   };
 
-  const getButtonVariant = () => {
-    switch (variant) {
-      case "link":
-        return "link";
-      default:
-        return "ghost";
-    }
-  };
-
-  const getButtonStyles = () => {
-    const baseHover = "hover:text-green-500 hover:bg-transparent";
+  const getLinkStyles = () => {
     switch (variant) {
       case "hero":
-        return `font-bold px-12 py-4 text-lg ${baseHover}`;
+        return "font-bold text-lg text-primary hover:text-primary/80 underline underline-offset-4";
       case "header":
-        return `font-semibold px-4 py-2 text-sm ${baseHover}`;
+        return "font-semibold text-sm text-primary hover:text-primary/80 underline underline-offset-4";
       case "link":
-        return "font-medium p-0 text-xs hover:text-green-500";
+        return "font-medium text-xs text-primary hover:text-primary/80 underline underline-offset-4";
       default:
-        return `font-semibold px-6 py-2 ${baseHover}`;
+        return "font-semibold text-primary hover:text-primary/80 underline underline-offset-4";
     }
   };
 
@@ -54,14 +43,21 @@ export const DemoButton = ({
 
   return (
     <div className={`${className}`}>
-      <Button 
+      <a 
         onClick={handleDemoClick}
-        className={getButtonStyles()}
-        variant={getButtonVariant()}
+        className={`cursor-pointer transition-colors ${getLinkStyles()}`}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleDemoClick();
+          }
+        }}
       >
-        {showIcon && <Play className="w-5 h-5 mr-2" />}
+        {showIcon && <Play className="w-5 h-5 mr-2 inline" />}
         Try the demo
-      </Button>
+      </a>
     </div>
   );
 };
