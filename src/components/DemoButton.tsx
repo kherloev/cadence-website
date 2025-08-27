@@ -1,4 +1,5 @@
 import { Play } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface DemoButtonProps {
   className?: string;
@@ -30,8 +31,6 @@ export const DemoButton = ({
     switch (variant) {
       case "hero":
         return "font-bold text-lg text-primary hover:text-primary/80 underline underline-offset-4";
-      case "header":
-        return "font-semibold text-sm text-primary hover:text-primary/80 underline underline-offset-4";
       case "link":
         return "font-medium text-xs text-primary hover:text-primary/80 underline underline-offset-4";
       default:
@@ -41,6 +40,21 @@ export const DemoButton = ({
 
   const showIcon = variant === "hero";
 
+  // Render as Button for header variant
+  if (variant === "header") {
+    return (
+      <Button 
+        variant="secondary" 
+        size="sm"
+        onClick={handleDemoClick}
+        className={className}
+      >
+        Try the demo
+      </Button>
+    );
+  }
+
+  // Render as hyperlink for other variants
   return (
     <div className={`${className}`}>
       <a 
