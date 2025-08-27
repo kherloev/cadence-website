@@ -52,6 +52,23 @@ export const DemoButton = ({
 
   const showIcon = variant === "hero";
 
+  const renderLinkVariant = () => (
+    <span 
+      onClick={handleDemoClick}
+      className="font-medium text-xs hover:text-green-500 cursor-pointer underline"
+    >
+      Try the demo
+    </span>
+  );
+
+  if (variant === "link") {
+    return (
+      <div className={`${className}`}>
+        {renderLinkVariant()}
+      </div>
+    );
+  }
+
   return (
     <div className={`${className}`}>
       <Button 
