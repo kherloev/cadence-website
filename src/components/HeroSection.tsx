@@ -29,8 +29,7 @@ export const HeroSection = () => {
             <div className="flex flex-col gap-4 justify-center items-center mb-1">
               <SignupForm buttonText="Start Tracking Your Growth" variant="hero" />
             </div>
-            <p className="text-sm text-muted-foreground mt-2 font-sans leading-normal">
-              New signups start with a 14-day free trial. No credit card needed.<br />
+            <p className="text-sm text-muted-foreground mt-2 font-sans">
               Not ready to signup? <DemoButton variant="link" className="inline" /> first.
             </p>
           </div>
