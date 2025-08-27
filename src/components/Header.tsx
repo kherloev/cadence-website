@@ -14,7 +14,7 @@ export const Header = () => {
           
           <div className="hidden sm:flex sm:items-center sm:gap-3">
             <DemoButton variant="header" />
-            <SignupForm buttonText="Get Started" variant="header" />
+            <SignupForm buttonText="Start free trial" variant="header" />
           </div>
         </div>
       </div>
