@@ -44,7 +44,7 @@ export const DemoButton = ({
       case "header":
         return `font-semibold px-4 py-2 text-sm ${baseHover}`;
       case "link":
-        return "font-medium p-0 hover:text-green-500";
+        return "font-medium p-0 text-xs hover:text-green-500";
       default:
         return `font-semibold px-6 py-2 ${baseHover}`;
     }
