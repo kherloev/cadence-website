@@ -33,7 +33,7 @@ export const Header = () => {
             <Button 
               variant="outline" 
               onClick={handleLoginClick}
-              className="text-foreground border-border hover:bg-accent hover:text-accent-foreground"
+              className="text-foreground border-border hover:border-green-500"
             >
               Login
             </Button>
